@@ -1,0 +1,12 @@
+{
+  "name": "analise-saresp-2025",
+  "version": "1.0.0",
+  "description": "Analise SARESP 2025 - 26 Escolas Estaduais",
+  "scripts": {
+    "process": "python3 scripts/process_data.py",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
