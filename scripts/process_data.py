@@ -385,7 +385,7 @@ def build_summary_text(schools_data, rankings, municipalities):
     """Gera texto-resumo para o prompt do LLM."""
     lines = []
     lines.append('SARESP 2025 - Análise de 26 Escolas Estaduais')
-    lines.append('Diretoria de Ensino - Região de Sertãozinho')
+    lines.append('Unidade Regional de Ensino de Sertãozinho')
     lines.append(f'Municípios: {", ".join(sorted(municipalities.keys()))}')
     lines.append('')
 
@@ -527,7 +527,7 @@ def main():
 
     output = {
         'metadata': {
-            'title': 'SARESP 2025 - 26 Escolas Estaduais - DE Sertãozinho',
+            'title': 'SARESP 2025 - 26 Escolas Estaduais - URE de Sertãozinho',
             'total_schools': len(TARGET_SCHOOLS),
             'municipalities': sorted(list(set(s['municipio'] for s in TARGET_SCHOOLS.values()))),
             'segments': {
