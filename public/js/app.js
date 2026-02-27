@@ -27,7 +27,6 @@
     SchoolDetail.init(data);
     Comparison.init(data);
     Municipality.init(data);
-    Chat.init(data);
   } catch (err) {
     document.getElementById('main-content').innerHTML =
       `<div class="loading"><p>Erro ao carregar dados: ${err.message}</p></div>`;
