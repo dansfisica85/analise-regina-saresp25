@@ -15,6 +15,7 @@ const Rankings = (() => {
 
     const isParticipation = type === 'participacao_geral';
     const isPct = type.startsWith('pct_');
+    const isLP = type.includes('_lp');
 
     // Table
     const container = document.getElementById('ranking-table-container');
@@ -22,9 +23,9 @@ const Rankings = (() => {
     if (isParticipation) {
       headers += '<th>Participação</th><th>Participantes</th><th>Total Alunos</th><th>Segmentos</th>';
     } else if (isPct) {
-      headers += '<th>% Adeq.+Avanç.</th><th>Participantes</th>';
+      headers += '<th>% Adeq.+Avanç.</th><th>Abaixo do Básico</th><th>Básico</th><th>Adequado</th><th>Avançado</th><th>Total</th>';
     } else {
-      headers += '<th>Média</th><th>Participantes</th>';
+      headers += '<th>Média</th><th>Abaixo do Básico</th><th>Básico</th><th>Adequado</th><th>Avançado</th><th>Total</th>';
     }
 
     let rows = '';
@@ -41,17 +42,55 @@ const Rankings = (() => {
           <td>${s.total_participantes.toLocaleString('pt-BR')}</td>
           <td>${s.total_alunos.toLocaleString('pt-BR')}</td>
           <td>${s.segmentos.join(', ')}</td>`;
-      } else if (isPct) {
-        rows += `<td><strong>${s.valor}%</strong></td>
-          <td>${s.participantes.toLocaleString('pt-BR')}</td>`;
       } else {
-        rows += `<td><strong>${s.valor}</strong></td>
-          <td>${s.participantes.toLocaleString('pt-BR')}</td>`;
+        const school = data.schools[s.codesc];
+        const ef = school && school.ensino_fundamental;
+        const levelsKey = isLP || type === 'proficiencia_lp' ? 'proficiency_levels_lp' : 'proficiency_levels_mat';
+        const lvl = ef ? ef.totals[levelsKey] : null;
+        const ab = lvl ? lvl['Abaixo do Basico'] || 0 : 0;
+        const ba = lvl ? lvl['Basico'] || 0 : 0;
+        const ad = lvl ? lvl['Adequado'] || 0 : 0;
+        const av = lvl ? lvl['Avancado'] || 0 : 0;
+        const total = ab + ba + ad + av;
+
+        if (isPct) {
+          rows += `<td><strong>${s.valor}%</strong></td>`;
+        } else {
+          rows += `<td><strong>${s.valor}</strong></td>`;
+        }
+        rows += `
+          <td class="level-abaixo">${ab}</td>
+          <td class="level-basico">${ba}</td>
+          <td class="level-adequado">${ad}</td>
+          <td class="level-avancado">${av}</td>
+          <td>${total}</td>`;
       }
       rows += '</tr>';
     });
 
-    container.innerHTML = `<table class="data-table"><thead><tr>${headers}</tr></thead><tbody>${rows}</tbody></table>`;
+    // Add non-participating schools section for proficiency rankings
+    let nonParticipating = '';
+    if (!isParticipation) {
+      const rankedCodes = new Set(ranking.map(s => s.codesc));
+      const missing = Object.values(data.schools).filter(s => !rankedCodes.has(s.codesc));
+      if (missing.length > 0) {
+        nonParticipating = `<div class="non-participating">
+          <h4>Escolas sem dados de proficiência neste segmento</h4>
+          <table class="data-table"><thead><tr><th>Escola</th><th>Município</th><th>Status</th><th>Segmentos Disponíveis</th></tr></thead><tbody>`;
+        missing.sort((a, b) => a.nome.localeCompare(b.nome)).forEach(s => {
+          const segs = s.segmentos.length > 0 ? s.segmentos.join(', ') : 'Nenhum';
+          nonParticipating += `<tr>
+            <td>${s.nome}</td>
+            <td>${s.municipio}</td>
+            <td><span class="badge-no-data">Não participou do EF</span></td>
+            <td>${segs}</td>
+          </tr>`;
+        });
+        nonParticipating += '</tbody></table></div>';
+      }
+    }
+
+    container.innerHTML = `<table class="data-table"><thead><tr>${headers}</tr></thead><tbody>${rows}</tbody></table>${nonParticipating}`;
 
     // Chart
     const titleMap = {
