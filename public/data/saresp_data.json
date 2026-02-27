@@ -1,0 +1,4220 @@
+{
+  "metadata": {
+    "title": "SARESP 2025 - 26 Escolas Estaduais - DE Sertãozinho",
+    "total_schools": 26,
+    "municipalities": [
+      "BARRINHA",
+      "DUMONT",
+      "JARDINÓPOLIS",
+      "PITANGUEIRAS",
+      "PONTAL",
+      "SERTÃOZINHO",
+      "TERRA ROXA",
+      "VIRADOURO"
+    ],
+    "segments": {
+      "ensino_fundamental": "Proficiência LP e MAT + Participação",
+      "anos_finais": "Participação (dia 1 e dia 2)",
+      "ensino_medio": "Participação (Linguagens/CN e MAT/CH)"
+    }
+  },
+  "schools": {
+    "22573": {
+      "nome": "EE Dona Adélia Frascino",
+      "codesc": "22573",
+      "municipio": "PONTAL",
+      "nomesc": "ADELIA FRASCINO DONA",
+      "segmentos": [
+        "EF",
+        "AF",
+        "EM"
+      ],
+      "ensino_fundamental": {
+        "grades": {
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 6,
+            "participants_lp": 6,
+            "participants_mat": 6,
+            "participation_rate_lp": 1.0,
+            "participation_rate_mat": 1.0,
+            "avg_profic_lp": 323.92,
+            "avg_profic_mat": 364.4,
+            "median_profic_lp": 318.9,
+            "median_profic_mat": 364.65,
+            "std_profic_lp": 18.34,
+            "std_profic_mat": 14.89,
+            "proficiency_levels_lp": {
+              "Avancado": 2,
+              "Adequado": 4,
+              "Basico": 0,
+              "Abaixo do Basico": 0
+            },
+            "proficiency_levels_mat": {
+              "Avancado": 5,
+              "Adequado": 1,
+              "Basico": 0,
+              "Abaixo do Basico": 0
+            }
+          }
+        },
+        "totals": {
+          "total_students": 6,
+          "participants_lp": 6,
+          "participants_mat": 6,
+          "participation_rate_lp": 1.0,
+          "participation_rate_mat": 1.0,
+          "avg_profic_lp": 323.92,
+          "avg_profic_mat": 364.4,
+          "median_profic_lp": 318.9,
+          "median_profic_mat": 364.65,
+          "pct_adequado_avancado_lp": 100.0,
+          "pct_adequado_avancado_mat": 100.0,
+          "proficiency_levels_lp": {
+            "Avancado": 2,
+            "Adequado": 4,
+            "Basico": 0,
+            "Abaixo do Basico": 0
+          },
+          "proficiency_levels_mat": {
+            "Avancado": 5,
+            "Adequado": 1,
+            "Basico": 0,
+            "Abaixo do Basico": 0
+          }
+        }
+      },
+      "anos_finais": {
+        "grades": {
+          "6º Ano EF": {
+            "grade_label": "6º Ano EF",
+            "total_students": 9,
+            "participants_dia1": 9,
+            "participants_dia2": 9,
+            "participants_both": 9,
+            "participation_rate_dia1": 1.0,
+            "participation_rate_dia2": 1.0,
+            "participation_rate_both": 1.0
+          },
+          "7º Ano EF": {
+            "grade_label": "7º Ano EF",
+            "total_students": 9,
+            "participants_dia1": 9,
+            "participants_dia2": 9,
+            "participants_both": 9,
+            "participation_rate_dia1": 1.0,
+            "participation_rate_dia2": 1.0,
+            "participation_rate_both": 1.0
+          },
+          "8º Ano EF": {
+            "grade_label": "8º Ano EF",
+            "total_students": 8,
+            "participants_dia1": 8,
+            "participants_dia2": 8,
+            "participants_both": 8,
+            "participation_rate_dia1": 1.0,
+            "participation_rate_dia2": 1.0,
+            "participation_rate_both": 1.0
+          },
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 6,
+            "participants_dia1": 6,
+            "participants_dia2": 6,
+            "participants_both": 6,
+            "participation_rate_dia1": 1.0,
+            "participation_rate_dia2": 1.0,
+            "participation_rate_both": 1.0
+          }
+        },
+        "totals": {
+          "total_students": 32,
+          "participants_dia1": 32,
+          "participants_dia2": 32,
+          "participants_both": 32,
+          "participation_rate_dia1": 1.0,
+          "participation_rate_dia2": 1.0,
+          "participation_rate_both": 1.0
+        }
+      },
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 7,
+            "participants_lg_cn": 7,
+            "participants_mat_ch": 7,
+            "participants_both": 7,
+            "participation_rate_lg_cn": 1.0,
+            "participation_rate_mat_ch": 1.0,
+            "participation_rate_both": 1.0
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 5,
+            "participants_lg_cn": 4,
+            "participants_mat_ch": 4,
+            "participants_both": 4,
+            "participation_rate_lg_cn": 0.8,
+            "participation_rate_mat_ch": 0.8,
+            "participation_rate_both": 0.8
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 2,
+            "participants_lg_cn": 2,
+            "participants_mat_ch": 2,
+            "participants_both": 2,
+            "participation_rate_lg_cn": 1.0,
+            "participation_rate_mat_ch": 1.0,
+            "participation_rate_both": 1.0
+          }
+        },
+        "totals": {
+          "total_students": 14,
+          "participants_lg_cn": 13,
+          "participants_mat_ch": 13,
+          "participants_both": 13,
+          "participation_rate_lg_cn": 0.9286,
+          "participation_rate_mat_ch": 0.9286,
+          "participation_rate_both": 0.9286
+        }
+      }
+    },
+    "22664": {
+      "nome": "PEI EE Domingos Paro",
+      "codesc": "22664",
+      "municipio": "PITANGUEIRAS",
+      "nomesc": "DOMINGOS PARO",
+      "segmentos": [
+        "EF",
+        "AF",
+        "EM"
+      ],
+      "ensino_fundamental": {
+        "grades": {
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 37,
+            "participants_lp": 36,
+            "participants_mat": 36,
+            "participation_rate_lp": 0.973,
+            "participation_rate_mat": 0.973,
+            "avg_profic_lp": 263.88,
+            "avg_profic_mat": 316.86,
+            "median_profic_lp": 271.35,
+            "median_profic_mat": 333.45,
+            "std_profic_lp": 48.56,
+            "std_profic_mat": 59.5,
+            "proficiency_levels_lp": {
+              "Avancado": 2,
+              "Adequado": 14,
+              "Basico": 15,
+              "Abaixo do Basico": 5
+            },
+            "proficiency_levels_mat": {
+              "Avancado": 11,
+              "Adequado": 15,
+              "Basico": 7,
+              "Abaixo do Basico": 3
+            }
+          }
+        },
+        "totals": {
+          "total_students": 37,
+          "participants_lp": 36,
+          "participants_mat": 36,
+          "participation_rate_lp": 0.973,
+          "participation_rate_mat": 0.973,
+          "avg_profic_lp": 263.88,
+          "avg_profic_mat": 316.86,
+          "median_profic_lp": 271.35,
+          "median_profic_mat": 333.45,
+          "pct_adequado_avancado_lp": 44.4,
+          "pct_adequado_avancado_mat": 72.2,
+          "proficiency_levels_lp": {
+            "Avancado": 2,
+            "Adequado": 14,
+            "Basico": 15,
+            "Abaixo do Basico": 5
+          },
+          "proficiency_levels_mat": {
+            "Avancado": 11,
+            "Adequado": 15,
+            "Basico": 7,
+            "Abaixo do Basico": 3
+          }
+        }
+      },
+      "anos_finais": {
+        "grades": {
+          "6º Ano EF": {
+            "grade_label": "6º Ano EF",
+            "total_students": 43,
+            "participants_dia1": 42,
+            "participants_dia2": 41,
+            "participants_both": 41,
+            "participation_rate_dia1": 0.9767,
+            "participation_rate_dia2": 0.9535,
+            "participation_rate_both": 0.9535
+          },
+          "7º Ano EF": {
+            "grade_label": "7º Ano EF",
+            "total_students": 37,
+            "participants_dia1": 37,
+            "participants_dia2": 37,
+            "participants_both": 37,
+            "participation_rate_dia1": 1.0,
+            "participation_rate_dia2": 1.0,
+            "participation_rate_both": 1.0
+          },
+          "8º Ano EF": {
+            "grade_label": "8º Ano EF",
+            "total_students": 47,
+            "participants_dia1": 44,
+            "participants_dia2": 44,
+            "participants_both": 44,
+            "participation_rate_dia1": 0.9362,
+            "participation_rate_dia2": 0.9362,
+            "participation_rate_both": 0.9362
+          },
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 37,
+            "participants_dia1": 36,
+            "participants_dia2": 35,
+            "participants_both": 34,
+            "participation_rate_dia1": 0.973,
+            "participation_rate_dia2": 0.9459,
+            "participation_rate_both": 0.9189
+          }
+        },
+        "totals": {
+          "total_students": 164,
+          "participants_dia1": 159,
+          "participants_dia2": 157,
+          "participants_both": 156,
+          "participation_rate_dia1": 0.9695,
+          "participation_rate_dia2": 0.9573,
+          "participation_rate_both": 0.9512
+        }
+      },
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 35,
+            "participants_lg_cn": 30,
+            "participants_mat_ch": 30,
+            "participants_both": 30,
+            "participation_rate_lg_cn": 0.8571,
+            "participation_rate_mat_ch": 0.8571,
+            "participation_rate_both": 0.8571
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 24,
+            "participants_lg_cn": 22,
+            "participants_mat_ch": 22,
+            "participants_both": 22,
+            "participation_rate_lg_cn": 0.9167,
+            "participation_rate_mat_ch": 0.9167,
+            "participation_rate_both": 0.9167
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 33,
+            "participants_lg_cn": 29,
+            "participants_mat_ch": 28,
+            "participants_both": 28,
+            "participation_rate_lg_cn": 0.8788,
+            "participation_rate_mat_ch": 0.8485,
+            "participation_rate_both": 0.8485
+          }
+        },
+        "totals": {
+          "total_students": 92,
+          "participants_lg_cn": 81,
+          "participants_mat_ch": 80,
+          "participants_both": 80,
+          "participation_rate_lg_cn": 0.8804,
+          "participation_rate_mat_ch": 0.8696,
+          "participation_rate_both": 0.8696
+        }
+      }
+    },
+    "22494": {
+      "nome": "PEI EE Maria Falconi de Felício",
+      "codesc": "22494",
+      "municipio": "PITANGUEIRAS",
+      "nomesc": "MARIA FALCONI DE FELICIO",
+      "segmentos": [
+        "EF",
+        "AF",
+        "EM"
+      ],
+      "ensino_fundamental": {
+        "grades": {
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 52,
+            "participants_lp": 51,
+            "participants_mat": 51,
+            "participation_rate_lp": 0.9808,
+            "participation_rate_mat": 0.9808,
+            "avg_profic_lp": 251.9,
+            "avg_profic_mat": 308.94,
+            "median_profic_lp": 261.7,
+            "median_profic_mat": 317.6,
+            "std_profic_lp": 48.85,
+            "std_profic_mat": 59.85,
+            "proficiency_levels_lp": {
+              "Avancado": 4,
+              "Adequado": 11,
+              "Basico": 28,
+              "Abaixo do Basico": 8
+            },
+            "proficiency_levels_mat": {
+              "Avancado": 17,
+              "Adequado": 14,
+              "Basico": 15,
+              "Abaixo do Basico": 5
+            }
+          }
+        },
+        "totals": {
+          "total_students": 52,
+          "participants_lp": 51,
+          "participants_mat": 51,
+          "participation_rate_lp": 0.9808,
+          "participation_rate_mat": 0.9808,
+          "avg_profic_lp": 251.9,
+          "avg_profic_mat": 308.94,
+          "median_profic_lp": 261.7,
+          "median_profic_mat": 317.6,
+          "pct_adequado_avancado_lp": 29.4,
+          "pct_adequado_avancado_mat": 60.8,
+          "proficiency_levels_lp": {
+            "Avancado": 4,
+            "Adequado": 11,
+            "Basico": 28,
+            "Abaixo do Basico": 8
+          },
+          "proficiency_levels_mat": {
+            "Avancado": 17,
+            "Adequado": 14,
+            "Basico": 15,
+            "Abaixo do Basico": 5
+          }
+        }
+      },
+      "anos_finais": {
+        "grades": {
+          "6º Ano EF": {
+            "grade_label": "6º Ano EF",
+            "total_students": 75,
+            "participants_dia1": 73,
+            "participants_dia2": 73,
+            "participants_both": 73,
+            "participation_rate_dia1": 0.9733,
+            "participation_rate_dia2": 0.9733,
+            "participation_rate_both": 0.9733
+          },
+          "7º Ano EF": {
+            "grade_label": "7º Ano EF",
+            "total_students": 61,
+            "participants_dia1": 54,
+            "participants_dia2": 54,
+            "participants_both": 54,
+            "participation_rate_dia1": 0.8852,
+            "participation_rate_dia2": 0.8852,
+            "participation_rate_both": 0.8852
+          },
+          "8º Ano EF": {
+            "grade_label": "8º Ano EF",
+            "total_students": 53,
+            "participants_dia1": 51,
+            "participants_dia2": 52,
+            "participants_both": 51,
+            "participation_rate_dia1": 0.9623,
+            "participation_rate_dia2": 0.9811,
+            "participation_rate_both": 0.9623
+          },
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 52,
+            "participants_dia1": 51,
+            "participants_dia2": 50,
+            "participants_both": 50,
+            "participation_rate_dia1": 0.9808,
+            "participation_rate_dia2": 0.9615,
+            "participation_rate_both": 0.9615
+          }
+        },
+        "totals": {
+          "total_students": 241,
+          "participants_dia1": 229,
+          "participants_dia2": 229,
+          "participants_both": 228,
+          "participation_rate_dia1": 0.9502,
+          "participation_rate_dia2": 0.9502,
+          "participation_rate_both": 0.9461
+        }
+      },
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 76,
+            "participants_lg_cn": 66,
+            "participants_mat_ch": 67,
+            "participants_both": 65,
+            "participation_rate_lg_cn": 0.8684,
+            "participation_rate_mat_ch": 0.8816,
+            "participation_rate_both": 0.8553
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 35,
+            "participants_lg_cn": 34,
+            "participants_mat_ch": 33,
+            "participants_both": 33,
+            "participation_rate_lg_cn": 0.9714,
+            "participation_rate_mat_ch": 0.9429,
+            "participation_rate_both": 0.9429
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 19,
+            "participants_lg_cn": 19,
+            "participants_mat_ch": 19,
+            "participants_both": 19,
+            "participation_rate_lg_cn": 1.0,
+            "participation_rate_mat_ch": 1.0,
+            "participation_rate_both": 1.0
+          }
+        },
+        "totals": {
+          "total_students": 130,
+          "participants_lg_cn": 119,
+          "participants_mat_ch": 119,
+          "participants_both": 117,
+          "participation_rate_lg_cn": 0.9154,
+          "participation_rate_mat_ch": 0.9154,
+          "participation_rate_both": 0.9
+        }
+      }
+    },
+    "22755": {
+      "nome": "EE Maurício Montecchi",
+      "codesc": "22755",
+      "municipio": "PITANGUEIRAS",
+      "nomesc": "MAURICIO MONTECCHI",
+      "segmentos": [
+        "EF",
+        "AF",
+        "EM"
+      ],
+      "ensino_fundamental": {
+        "grades": {
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 110,
+            "participants_lp": 110,
+            "participants_mat": 110,
+            "participation_rate_lp": 1.0,
+            "participation_rate_mat": 1.0,
+            "avg_profic_lp": 258.62,
+            "avg_profic_mat": 285.74,
+            "median_profic_lp": 259.75,
+            "median_profic_mat": 285.7,
+            "std_profic_lp": 42.05,
+            "std_profic_mat": 58.54,
+            "proficiency_levels_lp": {
+              "Avancado": 7,
+              "Adequado": 31,
+              "Basico": 62,
+              "Abaixo do Basico": 10
+            },
+            "proficiency_levels_mat": {
+              "Avancado": 19,
+              "Adequado": 26,
+              "Basico": 44,
+              "Abaixo do Basico": 21
+            }
+          }
+        },
+        "totals": {
+          "total_students": 110,
+          "participants_lp": 110,
+          "participants_mat": 110,
+          "participation_rate_lp": 1.0,
+          "participation_rate_mat": 1.0,
+          "avg_profic_lp": 258.62,
+          "avg_profic_mat": 285.74,
+          "median_profic_lp": 259.75,
+          "median_profic_mat": 285.7,
+          "pct_adequado_avancado_lp": 34.5,
+          "pct_adequado_avancado_mat": 40.9,
+          "proficiency_levels_lp": {
+            "Avancado": 7,
+            "Adequado": 31,
+            "Basico": 62,
+            "Abaixo do Basico": 10
+          },
+          "proficiency_levels_mat": {
+            "Avancado": 19,
+            "Adequado": 26,
+            "Basico": 44,
+            "Abaixo do Basico": 21
+          }
+        }
+      },
+      "anos_finais": {
+        "grades": {
+          "6º Ano EF": {
+            "grade_label": "6º Ano EF",
+            "total_students": 107,
+            "participants_dia1": 104,
+            "participants_dia2": 104,
+            "participants_both": 104,
+            "participation_rate_dia1": 0.972,
+            "participation_rate_dia2": 0.972,
+            "participation_rate_both": 0.972
+          },
+          "7º Ano EF": {
+            "grade_label": "7º Ano EF",
+            "total_students": 109,
+            "participants_dia1": 105,
+            "participants_dia2": 105,
+            "participants_both": 105,
+            "participation_rate_dia1": 0.9633,
+            "participation_rate_dia2": 0.9633,
+            "participation_rate_both": 0.9633
+          },
+          "8º Ano EF": {
+            "grade_label": "8º Ano EF",
+            "total_students": 107,
+            "participants_dia1": 107,
+            "participants_dia2": 107,
+            "participants_both": 107,
+            "participation_rate_dia1": 1.0,
+            "participation_rate_dia2": 1.0,
+            "participation_rate_both": 1.0
+          },
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 110,
+            "participants_dia1": 110,
+            "participants_dia2": 110,
+            "participants_both": 110,
+            "participation_rate_dia1": 1.0,
+            "participation_rate_dia2": 1.0,
+            "participation_rate_both": 1.0
+          }
+        },
+        "totals": {
+          "total_students": 433,
+          "participants_dia1": 426,
+          "participants_dia2": 426,
+          "participants_both": 426,
+          "participation_rate_dia1": 0.9838,
+          "participation_rate_dia2": 0.9838,
+          "participation_rate_both": 0.9838
+        }
+      },
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 124,
+            "participants_lg_cn": 117,
+            "participants_mat_ch": 117,
+            "participants_both": 116,
+            "participation_rate_lg_cn": 0.9435,
+            "participation_rate_mat_ch": 0.9435,
+            "participation_rate_both": 0.9355
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 134,
+            "participants_lg_cn": 120,
+            "participants_mat_ch": 118,
+            "participants_both": 117,
+            "participation_rate_lg_cn": 0.8955,
+            "participation_rate_mat_ch": 0.8806,
+            "participation_rate_both": 0.8731
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 125,
+            "participants_lg_cn": 122,
+            "participants_mat_ch": 119,
+            "participants_both": 119,
+            "participation_rate_lg_cn": 0.976,
+            "participation_rate_mat_ch": 0.952,
+            "participation_rate_both": 0.952
+          }
+        },
+        "totals": {
+          "total_students": 383,
+          "participants_lg_cn": 359,
+          "participants_mat_ch": 354,
+          "participants_both": 352,
+          "participation_rate_lg_cn": 0.9373,
+          "participation_rate_mat_ch": 0.9243,
+          "participation_rate_both": 0.9191
+        }
+      }
+    },
+    "22640": {
+      "nome": "EE Orminda Guimarães Cotrim",
+      "codesc": "22640",
+      "municipio": "PITANGUEIRAS",
+      "nomesc": "ORMINDA GUIMARAES COTRIM",
+      "segmentos": [
+        "EF",
+        "AF",
+        "EM"
+      ],
+      "ensino_fundamental": {
+        "grades": {
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 101,
+            "participants_lp": 96,
+            "participants_mat": 96,
+            "participation_rate_lp": 0.9505,
+            "participation_rate_mat": 0.9505,
+            "avg_profic_lp": 254.09,
+            "avg_profic_mat": 267.46,
+            "median_profic_lp": 255.45,
+            "median_profic_mat": 265.6,
+            "std_profic_lp": 49.82,
+            "std_profic_mat": 45.86,
+            "proficiency_levels_lp": {
+              "Avancado": 8,
+              "Adequado": 28,
+              "Basico": 46,
+              "Abaixo do Basico": 14
+            },
+            "proficiency_levels_mat": {
+              "Avancado": 3,
+              "Adequado": 22,
+              "Basico": 51,
+              "Abaixo do Basico": 20
+            }
+          }
+        },
+        "totals": {
+          "total_students": 101,
+          "participants_lp": 96,
+          "participants_mat": 96,
+          "participation_rate_lp": 0.9505,
+          "participation_rate_mat": 0.9505,
+          "avg_profic_lp": 254.09,
+          "avg_profic_mat": 267.46,
+          "median_profic_lp": 255.45,
+          "median_profic_mat": 265.6,
+          "pct_adequado_avancado_lp": 37.5,
+          "pct_adequado_avancado_mat": 26.0,
+          "proficiency_levels_lp": {
+            "Avancado": 8,
+            "Adequado": 28,
+            "Basico": 46,
+            "Abaixo do Basico": 14
+          },
+          "proficiency_levels_mat": {
+            "Avancado": 3,
+            "Adequado": 22,
+            "Basico": 51,
+            "Abaixo do Basico": 20
+          }
+        }
+      },
+      "anos_finais": {
+        "grades": {
+          "6º Ano EF": {
+            "grade_label": "6º Ano EF",
+            "total_students": 93,
+            "participants_dia1": 85,
+            "participants_dia2": 83,
+            "participants_both": 82,
+            "participation_rate_dia1": 0.914,
+            "participation_rate_dia2": 0.8925,
+            "participation_rate_both": 0.8817
+          },
+          "7º Ano EF": {
+            "grade_label": "7º Ano EF",
+            "total_students": 71,
+            "participants_dia1": 66,
+            "participants_dia2": 65,
+            "participants_both": 64,
+            "participation_rate_dia1": 0.9296,
+            "participation_rate_dia2": 0.9155,
+            "participation_rate_both": 0.9014
+          },
+          "8º Ano EF": {
+            "grade_label": "8º Ano EF",
+            "total_students": 103,
+            "participants_dia1": 93,
+            "participants_dia2": 96,
+            "participants_both": 91,
+            "participation_rate_dia1": 0.9029,
+            "participation_rate_dia2": 0.932,
+            "participation_rate_both": 0.8835
+          },
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 101,
+            "participants_dia1": 96,
+            "participants_dia2": 94,
+            "participants_both": 94,
+            "participation_rate_dia1": 0.9505,
+            "participation_rate_dia2": 0.9307,
+            "participation_rate_both": 0.9307
+          }
+        },
+        "totals": {
+          "total_students": 368,
+          "participants_dia1": 340,
+          "participants_dia2": 338,
+          "participants_both": 331,
+          "participation_rate_dia1": 0.9239,
+          "participation_rate_dia2": 0.9185,
+          "participation_rate_both": 0.8995
+        }
+      },
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 162,
+            "participants_lg_cn": 146,
+            "participants_mat_ch": 146,
+            "participants_both": 140,
+            "participation_rate_lg_cn": 0.9012,
+            "participation_rate_mat_ch": 0.9012,
+            "participation_rate_both": 0.8642
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 116,
+            "participants_lg_cn": 102,
+            "participants_mat_ch": 105,
+            "participants_both": 99,
+            "participation_rate_lg_cn": 0.8793,
+            "participation_rate_mat_ch": 0.9052,
+            "participation_rate_both": 0.8534
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 130,
+            "participants_lg_cn": 125,
+            "participants_mat_ch": 125,
+            "participants_both": 125,
+            "participation_rate_lg_cn": 0.9615,
+            "participation_rate_mat_ch": 0.9615,
+            "participation_rate_both": 0.9615
+          }
+        },
+        "totals": {
+          "total_students": 408,
+          "participants_lg_cn": 373,
+          "participants_mat_ch": 376,
+          "participants_both": 364,
+          "participation_rate_lg_cn": 0.9142,
+          "participation_rate_mat_ch": 0.9216,
+          "participation_rate_both": 0.8922
+        }
+      }
+    },
+    "914356": {
+      "nome": "EE Prof. Basílio Rodrigues da Silva",
+      "codesc": "914356",
+      "municipio": "PONTAL",
+      "nomesc": "BASILIO RODRIGUES DA SILVA PROFESSOR",
+      "segmentos": [
+        "EF",
+        "AF",
+        "EM"
+      ],
+      "ensino_fundamental": {
+        "grades": {
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 68,
+            "participants_lp": 66,
+            "participants_mat": 66,
+            "participation_rate_lp": 0.9706,
+            "participation_rate_mat": 0.9706,
+            "avg_profic_lp": 277.7,
+            "avg_profic_mat": 322.94,
+            "median_profic_lp": 282.0,
+            "median_profic_mat": 334.95,
+            "std_profic_lp": 47.98,
+            "std_profic_mat": 46.5,
+            "proficiency_levels_lp": {
+              "Avancado": 12,
+              "Adequado": 25,
+              "Basico": 25,
+              "Abaixo do Basico": 4
+            },
+            "proficiency_levels_mat": {
+              "Avancado": 22,
+              "Adequado": 30,
+              "Basico": 9,
+              "Abaixo do Basico": 5
+            }
+          }
+        },
+        "totals": {
+          "total_students": 68,
+          "participants_lp": 66,
+          "participants_mat": 66,
+          "participation_rate_lp": 0.9706,
+          "participation_rate_mat": 0.9706,
+          "avg_profic_lp": 277.7,
+          "avg_profic_mat": 322.94,
+          "median_profic_lp": 282.0,
+          "median_profic_mat": 334.95,
+          "pct_adequado_avancado_lp": 56.1,
+          "pct_adequado_avancado_mat": 78.8,
+          "proficiency_levels_lp": {
+            "Avancado": 12,
+            "Adequado": 25,
+            "Basico": 25,
+            "Abaixo do Basico": 4
+          },
+          "proficiency_levels_mat": {
+            "Avancado": 22,
+            "Adequado": 30,
+            "Basico": 9,
+            "Abaixo do Basico": 5
+          }
+        }
+      },
+      "anos_finais": {
+        "grades": {
+          "6º Ano EF": {
+            "grade_label": "6º Ano EF",
+            "total_students": 63,
+            "participants_dia1": 61,
+            "participants_dia2": 61,
+            "participants_both": 60,
+            "participation_rate_dia1": 0.9683,
+            "participation_rate_dia2": 0.9683,
+            "participation_rate_both": 0.9524
+          },
+          "7º Ano EF": {
+            "grade_label": "7º Ano EF",
+            "total_students": 62,
+            "participants_dia1": 61,
+            "participants_dia2": 61,
+            "participants_both": 61,
+            "participation_rate_dia1": 0.9839,
+            "participation_rate_dia2": 0.9839,
+            "participation_rate_both": 0.9839
+          },
+          "8º Ano EF": {
+            "grade_label": "8º Ano EF",
+            "total_students": 64,
+            "participants_dia1": 63,
+            "participants_dia2": 61,
+            "participants_both": 61,
+            "participation_rate_dia1": 0.9844,
+            "participation_rate_dia2": 0.9531,
+            "participation_rate_both": 0.9531
+          },
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 68,
+            "participants_dia1": 66,
+            "participants_dia2": 66,
+            "participants_both": 66,
+            "participation_rate_dia1": 0.9706,
+            "participation_rate_dia2": 0.9706,
+            "participation_rate_both": 0.9706
+          }
+        },
+        "totals": {
+          "total_students": 257,
+          "participants_dia1": 251,
+          "participants_dia2": 249,
+          "participants_both": 248,
+          "participation_rate_dia1": 0.9767,
+          "participation_rate_dia2": 0.9689,
+          "participation_rate_both": 0.965
+        }
+      },
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 120,
+            "participants_lg_cn": 111,
+            "participants_mat_ch": 109,
+            "participants_both": 109,
+            "participation_rate_lg_cn": 0.925,
+            "participation_rate_mat_ch": 0.9083,
+            "participation_rate_both": 0.9083
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 81,
+            "participants_lg_cn": 74,
+            "participants_mat_ch": 74,
+            "participants_both": 74,
+            "participation_rate_lg_cn": 0.9136,
+            "participation_rate_mat_ch": 0.9136,
+            "participation_rate_both": 0.9136
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 104,
+            "participants_lg_cn": 97,
+            "participants_mat_ch": 95,
+            "participants_both": 95,
+            "participation_rate_lg_cn": 0.9327,
+            "participation_rate_mat_ch": 0.9135,
+            "participation_rate_both": 0.9135
+          }
+        },
+        "totals": {
+          "total_students": 305,
+          "participants_lg_cn": 282,
+          "participants_mat_ch": 278,
+          "participants_both": 278,
+          "participation_rate_lg_cn": 0.9246,
+          "participation_rate_mat_ch": 0.9115,
+          "participation_rate_both": 0.9115
+        }
+      }
+    },
+    "22676": {
+      "nome": "PEI EE Profª Dolores Belém Novaes",
+      "codesc": "22676",
+      "municipio": "PONTAL",
+      "nomesc": "DOLORES BELEM NOVAES PROFESSORA",
+      "segmentos": [
+        "EF",
+        "AF",
+        "EM"
+      ],
+      "ensino_fundamental": {
+        "grades": {
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 60,
+            "participants_lp": 59,
+            "participants_mat": 59,
+            "participation_rate_lp": 0.9833,
+            "participation_rate_mat": 0.9833,
+            "avg_profic_lp": 272.47,
+            "avg_profic_mat": 333.78,
+            "median_profic_lp": 275.4,
+            "median_profic_mat": 349.1,
+            "std_profic_lp": 48.61,
+            "std_profic_mat": 43.66,
+            "proficiency_levels_lp": {
+              "Avancado": 7,
+              "Adequado": 23,
+              "Basico": 22,
+              "Abaixo do Basico": 7
+            },
+            "proficiency_levels_mat": {
+              "Avancado": 27,
+              "Adequado": 22,
+              "Basico": 7,
+              "Abaixo do Basico": 3
+            }
+          }
+        },
+        "totals": {
+          "total_students": 60,
+          "participants_lp": 59,
+          "participants_mat": 59,
+          "participation_rate_lp": 0.9833,
+          "participation_rate_mat": 0.9833,
+          "avg_profic_lp": 272.47,
+          "avg_profic_mat": 333.78,
+          "median_profic_lp": 275.4,
+          "median_profic_mat": 349.1,
+          "pct_adequado_avancado_lp": 50.8,
+          "pct_adequado_avancado_mat": 83.1,
+          "proficiency_levels_lp": {
+            "Avancado": 7,
+            "Adequado": 23,
+            "Basico": 22,
+            "Abaixo do Basico": 7
+          },
+          "proficiency_levels_mat": {
+            "Avancado": 27,
+            "Adequado": 22,
+            "Basico": 7,
+            "Abaixo do Basico": 3
+          }
+        }
+      },
+      "anos_finais": {
+        "grades": {
+          "6º Ano EF": {
+            "grade_label": "6º Ano EF",
+            "total_students": 70,
+            "participants_dia1": 70,
+            "participants_dia2": 70,
+            "participants_both": 70,
+            "participation_rate_dia1": 1.0,
+            "participation_rate_dia2": 1.0,
+            "participation_rate_both": 1.0
+          },
+          "7º Ano EF": {
+            "grade_label": "7º Ano EF",
+            "total_students": 72,
+            "participants_dia1": 70,
+            "participants_dia2": 70,
+            "participants_both": 70,
+            "participation_rate_dia1": 0.9722,
+            "participation_rate_dia2": 0.9722,
+            "participation_rate_both": 0.9722
+          },
+          "8º Ano EF": {
+            "grade_label": "8º Ano EF",
+            "total_students": 67,
+            "participants_dia1": 63,
+            "participants_dia2": 64,
+            "participants_both": 63,
+            "participation_rate_dia1": 0.9403,
+            "participation_rate_dia2": 0.9552,
+            "participation_rate_both": 0.9403
+          },
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 60,
+            "participants_dia1": 59,
+            "participants_dia2": 59,
+            "participants_both": 59,
+            "participation_rate_dia1": 0.9833,
+            "participation_rate_dia2": 0.9833,
+            "participation_rate_both": 0.9833
+          }
+        },
+        "totals": {
+          "total_students": 269,
+          "participants_dia1": 262,
+          "participants_dia2": 263,
+          "participants_both": 262,
+          "participation_rate_dia1": 0.974,
+          "participation_rate_dia2": 0.9777,
+          "participation_rate_both": 0.974
+        }
+      },
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 105,
+            "participants_lg_cn": 97,
+            "participants_mat_ch": 97,
+            "participants_both": 96,
+            "participation_rate_lg_cn": 0.9238,
+            "participation_rate_mat_ch": 0.9238,
+            "participation_rate_both": 0.9143
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 74,
+            "participants_lg_cn": 70,
+            "participants_mat_ch": 70,
+            "participants_both": 70,
+            "participation_rate_lg_cn": 0.9459,
+            "participation_rate_mat_ch": 0.9459,
+            "participation_rate_both": 0.9459
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 28,
+            "participants_lg_cn": 26,
+            "participants_mat_ch": 26,
+            "participants_both": 26,
+            "participation_rate_lg_cn": 0.9286,
+            "participation_rate_mat_ch": 0.9286,
+            "participation_rate_both": 0.9286
+          }
+        },
+        "totals": {
+          "total_students": 207,
+          "participants_lg_cn": 193,
+          "participants_mat_ch": 193,
+          "participants_both": 192,
+          "participation_rate_lg_cn": 0.9324,
+          "participation_rate_mat_ch": 0.9324,
+          "participation_rate_both": 0.9275
+        }
+      }
+    },
+    "22559": {
+      "nome": "EE Profª Dolores Martins de Castro",
+      "codesc": "22559",
+      "municipio": "PONTAL",
+      "nomesc": "DOLORES MARTINS DE CASTRO PROFESSORA",
+      "segmentos": [
+        "EF",
+        "AF",
+        "EM"
+      ],
+      "ensino_fundamental": {
+        "grades": {
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 30,
+            "participants_lp": 26,
+            "participants_mat": 26,
+            "participation_rate_lp": 0.8667,
+            "participation_rate_mat": 0.8667,
+            "avg_profic_lp": 270.57,
+            "avg_profic_mat": 319.52,
+            "median_profic_lp": 275.05,
+            "median_profic_mat": 329.05,
+            "std_profic_lp": 45.23,
+            "std_profic_mat": 49.91,
+            "proficiency_levels_lp": {
+              "Avancado": 1,
+              "Adequado": 12,
+              "Basico": 10,
+              "Abaixo do Basico": 3
+            },
+            "proficiency_levels_mat": {
+              "Avancado": 6,
+              "Adequado": 13,
+              "Basico": 5,
+              "Abaixo do Basico": 2
+            }
+          }
+        },
+        "totals": {
+          "total_students": 30,
+          "participants_lp": 26,
+          "participants_mat": 26,
+          "participation_rate_lp": 0.8667,
+          "participation_rate_mat": 0.8667,
+          "avg_profic_lp": 270.57,
+          "avg_profic_mat": 319.52,
+          "median_profic_lp": 275.05,
+          "median_profic_mat": 329.05,
+          "pct_adequado_avancado_lp": 50.0,
+          "pct_adequado_avancado_mat": 73.1,
+          "proficiency_levels_lp": {
+            "Avancado": 1,
+            "Adequado": 12,
+            "Basico": 10,
+            "Abaixo do Basico": 3
+          },
+          "proficiency_levels_mat": {
+            "Avancado": 6,
+            "Adequado": 13,
+            "Basico": 5,
+            "Abaixo do Basico": 2
+          }
+        }
+      },
+      "anos_finais": {
+        "grades": {
+          "6º Ano EF": {
+            "grade_label": "6º Ano EF",
+            "total_students": 24,
+            "participants_dia1": 24,
+            "participants_dia2": 24,
+            "participants_both": 24,
+            "participation_rate_dia1": 1.0,
+            "participation_rate_dia2": 1.0,
+            "participation_rate_both": 1.0
+          },
+          "7º Ano EF": {
+            "grade_label": "7º Ano EF",
+            "total_students": 20,
+            "participants_dia1": 19,
+            "participants_dia2": 19,
+            "participants_both": 19,
+            "participation_rate_dia1": 0.95,
+            "participation_rate_dia2": 0.95,
+            "participation_rate_both": 0.95
+          },
+          "8º Ano EF": {
+            "grade_label": "8º Ano EF",
+            "total_students": 26,
+            "participants_dia1": 25,
+            "participants_dia2": 25,
+            "participants_both": 25,
+            "participation_rate_dia1": 0.9615,
+            "participation_rate_dia2": 0.9615,
+            "participation_rate_both": 0.9615
+          },
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 30,
+            "participants_dia1": 26,
+            "participants_dia2": 26,
+            "participants_both": 26,
+            "participation_rate_dia1": 0.8667,
+            "participation_rate_dia2": 0.8667,
+            "participation_rate_both": 0.8667
+          }
+        },
+        "totals": {
+          "total_students": 100,
+          "participants_dia1": 94,
+          "participants_dia2": 94,
+          "participants_both": 94,
+          "participation_rate_dia1": 0.94,
+          "participation_rate_dia2": 0.94,
+          "participation_rate_both": 0.94
+        }
+      },
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 14,
+            "participants_lg_cn": 14,
+            "participants_mat_ch": 14,
+            "participants_both": 14,
+            "participation_rate_lg_cn": 1.0,
+            "participation_rate_mat_ch": 1.0,
+            "participation_rate_both": 1.0
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 21,
+            "participants_lg_cn": 14,
+            "participants_mat_ch": 14,
+            "participants_both": 14,
+            "participation_rate_lg_cn": 0.6667,
+            "participation_rate_mat_ch": 0.6667,
+            "participation_rate_both": 0.6667
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 9,
+            "participants_lg_cn": 9,
+            "participants_mat_ch": 9,
+            "participants_both": 9,
+            "participation_rate_lg_cn": 1.0,
+            "participation_rate_mat_ch": 1.0,
+            "participation_rate_both": 1.0
+          }
+        },
+        "totals": {
+          "total_students": 44,
+          "participants_lg_cn": 37,
+          "participants_mat_ch": 37,
+          "participants_both": 37,
+          "participation_rate_lg_cn": 0.8409,
+          "participation_rate_mat_ch": 0.8409,
+          "participation_rate_both": 0.8409
+        }
+      }
+    },
+    "49585": {
+      "nome": "EE Anna Passamonti Balardin",
+      "codesc": "49585",
+      "municipio": "SERTÃOZINHO",
+      "nomesc": "ANNA PASSAMONTI BALARDIN",
+      "segmentos": [
+        "EF",
+        "AF",
+        "EM"
+      ],
+      "ensino_fundamental": {
+        "grades": {
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 69,
+            "participants_lp": 63,
+            "participants_mat": 63,
+            "participation_rate_lp": 0.913,
+            "participation_rate_mat": 0.913,
+            "avg_profic_lp": 267.33,
+            "avg_profic_mat": 295.11,
+            "median_profic_lp": 277.6,
+            "median_profic_mat": 288.5,
+            "std_profic_lp": 47.58,
+            "std_profic_mat": 56.77,
+            "proficiency_levels_lp": {
+              "Avancado": 5,
+              "Adequado": 28,
+              "Basico": 22,
+              "Abaixo do Basico": 8
+            },
+            "proficiency_levels_mat": {
+              "Avancado": 15,
+              "Adequado": 14,
+              "Basico": 26,
+              "Abaixo do Basico": 8
+            }
+          }
+        },
+        "totals": {
+          "total_students": 69,
+          "participants_lp": 63,
+          "participants_mat": 63,
+          "participation_rate_lp": 0.913,
+          "participation_rate_mat": 0.913,
+          "avg_profic_lp": 267.33,
+          "avg_profic_mat": 295.11,
+          "median_profic_lp": 277.6,
+          "median_profic_mat": 288.5,
+          "pct_adequado_avancado_lp": 52.4,
+          "pct_adequado_avancado_mat": 46.0,
+          "proficiency_levels_lp": {
+            "Avancado": 5,
+            "Adequado": 28,
+            "Basico": 22,
+            "Abaixo do Basico": 8
+          },
+          "proficiency_levels_mat": {
+            "Avancado": 15,
+            "Adequado": 14,
+            "Basico": 26,
+            "Abaixo do Basico": 8
+          }
+        }
+      },
+      "anos_finais": {
+        "grades": {
+          "6º Ano EF": {
+            "grade_label": "6º Ano EF",
+            "total_students": 69,
+            "participants_dia1": 67,
+            "participants_dia2": 67,
+            "participants_both": 67,
+            "participation_rate_dia1": 0.971,
+            "participation_rate_dia2": 0.971,
+            "participation_rate_both": 0.971
+          },
+          "7º Ano EF": {
+            "grade_label": "7º Ano EF",
+            "total_students": 86,
+            "participants_dia1": 83,
+            "participants_dia2": 83,
+            "participants_both": 83,
+            "participation_rate_dia1": 0.9651,
+            "participation_rate_dia2": 0.9651,
+            "participation_rate_both": 0.9651
+          },
+          "8º Ano EF": {
+            "grade_label": "8º Ano EF",
+            "total_students": 105,
+            "participants_dia1": 98,
+            "participants_dia2": 100,
+            "participants_both": 98,
+            "participation_rate_dia1": 0.9333,
+            "participation_rate_dia2": 0.9524,
+            "participation_rate_both": 0.9333
+          },
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 69,
+            "participants_dia1": 63,
+            "participants_dia2": 63,
+            "participants_both": 63,
+            "participation_rate_dia1": 0.913,
+            "participation_rate_dia2": 0.913,
+            "participation_rate_both": 0.913
+          }
+        },
+        "totals": {
+          "total_students": 329,
+          "participants_dia1": 311,
+          "participants_dia2": 313,
+          "participants_both": 311,
+          "participation_rate_dia1": 0.9453,
+          "participation_rate_dia2": 0.9514,
+          "participation_rate_both": 0.9453
+        }
+      },
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 190,
+            "participants_lg_cn": 161,
+            "participants_mat_ch": 152,
+            "participants_both": 150,
+            "participation_rate_lg_cn": 0.8474,
+            "participation_rate_mat_ch": 0.8,
+            "participation_rate_both": 0.7895
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 211,
+            "participants_lg_cn": 184,
+            "participants_mat_ch": 180,
+            "participants_both": 180,
+            "participation_rate_lg_cn": 0.872,
+            "participation_rate_mat_ch": 0.8531,
+            "participation_rate_both": 0.8531
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 214,
+            "participants_lg_cn": 189,
+            "participants_mat_ch": 184,
+            "participants_both": 181,
+            "participation_rate_lg_cn": 0.8832,
+            "participation_rate_mat_ch": 0.8598,
+            "participation_rate_both": 0.8458
+          }
+        },
+        "totals": {
+          "total_students": 615,
+          "participants_lg_cn": 534,
+          "participants_mat_ch": 516,
+          "participants_both": 511,
+          "participation_rate_lg_cn": 0.8683,
+          "participation_rate_mat_ch": 0.839,
+          "participation_rate_both": 0.8309
+        }
+      }
+    },
+    "23620": {
+      "nome": "PEI EE Dr. Antônio Furlan Júnior",
+      "codesc": "23620",
+      "municipio": "SERTÃOZINHO",
+      "nomesc": "ANTONIO FURLAN JUNIOR DOUTOR",
+      "segmentos": [
+        "EF",
+        "AF",
+        "EM"
+      ],
+      "ensino_fundamental": {
+        "grades": {
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 132,
+            "participants_lp": 129,
+            "participants_mat": 129,
+            "participation_rate_lp": 0.9773,
+            "participation_rate_mat": 0.9773,
+            "avg_profic_lp": 251.25,
+            "avg_profic_mat": 272.09,
+            "median_profic_lp": 254.6,
+            "median_profic_mat": 266.3,
+            "std_profic_lp": 49.71,
+            "std_profic_mat": 49.95,
+            "proficiency_levels_lp": {
+              "Avancado": 12,
+              "Adequado": 30,
+              "Basico": 67,
+              "Abaixo do Basico": 20
+            },
+            "proficiency_levels_mat": {
+              "Avancado": 12,
+              "Adequado": 23,
+              "Basico": 68,
+              "Abaixo do Basico": 26
+            }
+          }
+        },
+        "totals": {
+          "total_students": 132,
+          "participants_lp": 129,
+          "participants_mat": 129,
+          "participation_rate_lp": 0.9773,
+          "participation_rate_mat": 0.9773,
+          "avg_profic_lp": 251.25,
+          "avg_profic_mat": 272.09,
+          "median_profic_lp": 254.6,
+          "median_profic_mat": 266.3,
+          "pct_adequado_avancado_lp": 32.6,
+          "pct_adequado_avancado_mat": 27.1,
+          "proficiency_levels_lp": {
+            "Avancado": 12,
+            "Adequado": 30,
+            "Basico": 67,
+            "Abaixo do Basico": 20
+          },
+          "proficiency_levels_mat": {
+            "Avancado": 12,
+            "Adequado": 23,
+            "Basico": 68,
+            "Abaixo do Basico": 26
+          }
+        }
+      },
+      "anos_finais": {
+        "grades": {
+          "6º Ano EF": {
+            "grade_label": "6º Ano EF",
+            "total_students": 142,
+            "participants_dia1": 126,
+            "participants_dia2": 127,
+            "participants_both": 125,
+            "participation_rate_dia1": 0.8873,
+            "participation_rate_dia2": 0.8944,
+            "participation_rate_both": 0.8803
+          },
+          "7º Ano EF": {
+            "grade_label": "7º Ano EF",
+            "total_students": 96,
+            "participants_dia1": 93,
+            "participants_dia2": 92,
+            "participants_both": 92,
+            "participation_rate_dia1": 0.9688,
+            "participation_rate_dia2": 0.9583,
+            "participation_rate_both": 0.9583
+          },
+          "8º Ano EF": {
+            "grade_label": "8º Ano EF",
+            "total_students": 75,
+            "participants_dia1": 72,
+            "participants_dia2": 73,
+            "participants_both": 72,
+            "participation_rate_dia1": 0.96,
+            "participation_rate_dia2": 0.9733,
+            "participation_rate_both": 0.96
+          },
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 132,
+            "participants_dia1": 129,
+            "participants_dia2": 129,
+            "participants_both": 127,
+            "participation_rate_dia1": 0.9773,
+            "participation_rate_dia2": 0.9773,
+            "participation_rate_both": 0.9621
+          }
+        },
+        "totals": {
+          "total_students": 445,
+          "participants_dia1": 420,
+          "participants_dia2": 421,
+          "participants_both": 416,
+          "participation_rate_dia1": 0.9438,
+          "participation_rate_dia2": 0.9461,
+          "participation_rate_both": 0.9348
+        }
+      },
+      "ensino_medio": {
+        "grades": {
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 45,
+            "participants_lg_cn": 42,
+            "participants_mat_ch": 43,
+            "participants_both": 42,
+            "participation_rate_lg_cn": 0.9333,
+            "participation_rate_mat_ch": 0.9556,
+            "participation_rate_both": 0.9333
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 36,
+            "participants_lg_cn": 35,
+            "participants_mat_ch": 35,
+            "participants_both": 35,
+            "participation_rate_lg_cn": 0.9722,
+            "participation_rate_mat_ch": 0.9722,
+            "participation_rate_both": 0.9722
+          }
+        },
+        "totals": {
+          "total_students": 81,
+          "participants_lg_cn": 77,
+          "participants_mat_ch": 78,
+          "participants_both": 77,
+          "participation_rate_lg_cn": 0.9506,
+          "participation_rate_mat_ch": 0.963,
+          "participation_rate_both": 0.9506
+        }
+      }
+    },
+    "23486": {
+      "nome": "EE Dr. Isaías José Ferreira",
+      "codesc": "23486",
+      "municipio": "SERTÃOZINHO",
+      "nomesc": "ISAIAS JOSE FERREIRA DOUTOR",
+      "segmentos": [
+        "EF",
+        "AF",
+        "EM"
+      ],
+      "ensino_fundamental": {
+        "grades": {
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 104,
+            "participants_lp": 95,
+            "participants_mat": 95,
+            "participation_rate_lp": 0.9135,
+            "participation_rate_mat": 0.9135,
+            "avg_profic_lp": 250.54,
+            "avg_profic_mat": 267.39,
+            "median_profic_lp": 248.1,
+            "median_profic_mat": 260.1,
+            "std_profic_lp": 49.89,
+            "std_profic_mat": 53.51,
+            "proficiency_levels_lp": {
+              "Avancado": 7,
+              "Adequado": 23,
+              "Basico": 50,
+              "Abaixo do Basico": 15
+            },
+            "proficiency_levels_mat": {
+              "Avancado": 9,
+              "Adequado": 17,
+              "Basico": 44,
+              "Abaixo do Basico": 25
+            }
+          }
+        },
+        "totals": {
+          "total_students": 104,
+          "participants_lp": 95,
+          "participants_mat": 95,
+          "participation_rate_lp": 0.9135,
+          "participation_rate_mat": 0.9135,
+          "avg_profic_lp": 250.54,
+          "avg_profic_mat": 267.39,
+          "median_profic_lp": 248.1,
+          "median_profic_mat": 260.1,
+          "pct_adequado_avancado_lp": 31.6,
+          "pct_adequado_avancado_mat": 27.4,
+          "proficiency_levels_lp": {
+            "Avancado": 7,
+            "Adequado": 23,
+            "Basico": 50,
+            "Abaixo do Basico": 15
+          },
+          "proficiency_levels_mat": {
+            "Avancado": 9,
+            "Adequado": 17,
+            "Basico": 44,
+            "Abaixo do Basico": 25
+          }
+        }
+      },
+      "anos_finais": {
+        "grades": {
+          "6º Ano EF": {
+            "grade_label": "6º Ano EF",
+            "total_students": 99,
+            "participants_dia1": 92,
+            "participants_dia2": 89,
+            "participants_both": 89,
+            "participation_rate_dia1": 0.9293,
+            "participation_rate_dia2": 0.899,
+            "participation_rate_both": 0.899
+          },
+          "7º Ano EF": {
+            "grade_label": "7º Ano EF",
+            "total_students": 87,
+            "participants_dia1": 83,
+            "participants_dia2": 83,
+            "participants_both": 82,
+            "participation_rate_dia1": 0.954,
+            "participation_rate_dia2": 0.954,
+            "participation_rate_both": 0.9425
+          },
+          "8º Ano EF": {
+            "grade_label": "8º Ano EF",
+            "total_students": 97,
+            "participants_dia1": 93,
+            "participants_dia2": 93,
+            "participants_both": 93,
+            "participation_rate_dia1": 0.9588,
+            "participation_rate_dia2": 0.9588,
+            "participation_rate_both": 0.9588
+          },
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 104,
+            "participants_dia1": 95,
+            "participants_dia2": 97,
+            "participants_both": 95,
+            "participation_rate_dia1": 0.9135,
+            "participation_rate_dia2": 0.9327,
+            "participation_rate_both": 0.9135
+          }
+        },
+        "totals": {
+          "total_students": 387,
+          "participants_dia1": 363,
+          "participants_dia2": 362,
+          "participants_both": 359,
+          "participation_rate_dia1": 0.938,
+          "participation_rate_dia2": 0.9354,
+          "participation_rate_both": 0.9276
+        }
+      },
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 87,
+            "participants_lg_cn": 83,
+            "participants_mat_ch": 81,
+            "participants_both": 81,
+            "participation_rate_lg_cn": 0.954,
+            "participation_rate_mat_ch": 0.931,
+            "participation_rate_both": 0.931
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 73,
+            "participants_lg_cn": 72,
+            "participants_mat_ch": 71,
+            "participants_both": 71,
+            "participation_rate_lg_cn": 0.9863,
+            "participation_rate_mat_ch": 0.9726,
+            "participation_rate_both": 0.9726
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 66,
+            "participants_lg_cn": 64,
+            "participants_mat_ch": 64,
+            "participants_both": 64,
+            "participation_rate_lg_cn": 0.9697,
+            "participation_rate_mat_ch": 0.9697,
+            "participation_rate_both": 0.9697
+          }
+        },
+        "totals": {
+          "total_students": 226,
+          "participants_lg_cn": 219,
+          "participants_mat_ch": 216,
+          "participants_both": 216,
+          "participation_rate_lg_cn": 0.969,
+          "participation_rate_mat_ch": 0.9558,
+          "participation_rate_both": 0.9558
+        }
+      }
+    },
+    "905847": {
+      "nome": "EE Ferrucio Chiaratti",
+      "codesc": "905847",
+      "municipio": "SERTÃOZINHO",
+      "nomesc": "FERRUCIO CHIARATTI",
+      "segmentos": [
+        "EF",
+        "AF",
+        "EM"
+      ],
+      "ensino_fundamental": {
+        "grades": {
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 136,
+            "participants_lp": 124,
+            "participants_mat": 124,
+            "participation_rate_lp": 0.9118,
+            "participation_rate_mat": 0.9118,
+            "avg_profic_lp": 238.31,
+            "avg_profic_mat": 265.51,
+            "median_profic_lp": 236.0,
+            "median_profic_mat": 258.25,
+            "std_profic_lp": 47.05,
+            "std_profic_mat": 53.59,
+            "proficiency_levels_lp": {
+              "Avancado": 3,
+              "Adequado": 28,
+              "Basico": 65,
+              "Abaixo do Basico": 28
+            },
+            "proficiency_levels_mat": {
+              "Avancado": 9,
+              "Adequado": 28,
+              "Basico": 52,
+              "Abaixo do Basico": 35
+            }
+          }
+        },
+        "totals": {
+          "total_students": 136,
+          "participants_lp": 124,
+          "participants_mat": 124,
+          "participation_rate_lp": 0.9118,
+          "participation_rate_mat": 0.9118,
+          "avg_profic_lp": 238.31,
+          "avg_profic_mat": 265.51,
+          "median_profic_lp": 236.0,
+          "median_profic_mat": 258.25,
+          "pct_adequado_avancado_lp": 25.0,
+          "pct_adequado_avancado_mat": 29.8,
+          "proficiency_levels_lp": {
+            "Avancado": 3,
+            "Adequado": 28,
+            "Basico": 65,
+            "Abaixo do Basico": 28
+          },
+          "proficiency_levels_mat": {
+            "Avancado": 9,
+            "Adequado": 28,
+            "Basico": 52,
+            "Abaixo do Basico": 35
+          }
+        }
+      },
+      "anos_finais": {
+        "grades": {
+          "6º Ano EF": {
+            "grade_label": "6º Ano EF",
+            "total_students": 100,
+            "participants_dia1": 89,
+            "participants_dia2": 88,
+            "participants_both": 88,
+            "participation_rate_dia1": 0.89,
+            "participation_rate_dia2": 0.88,
+            "participation_rate_both": 0.88
+          },
+          "7º Ano EF": {
+            "grade_label": "7º Ano EF",
+            "total_students": 115,
+            "participants_dia1": 107,
+            "participants_dia2": 106,
+            "participants_both": 106,
+            "participation_rate_dia1": 0.9304,
+            "participation_rate_dia2": 0.9217,
+            "participation_rate_both": 0.9217
+          },
+          "8º Ano EF": {
+            "grade_label": "8º Ano EF",
+            "total_students": 129,
+            "participants_dia1": 114,
+            "participants_dia2": 113,
+            "participants_both": 110,
+            "participation_rate_dia1": 0.8837,
+            "participation_rate_dia2": 0.876,
+            "participation_rate_both": 0.8527
+          },
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 136,
+            "participants_dia1": 124,
+            "participants_dia2": 121,
+            "participants_both": 118,
+            "participation_rate_dia1": 0.9118,
+            "participation_rate_dia2": 0.8897,
+            "participation_rate_both": 0.8676
+          }
+        },
+        "totals": {
+          "total_students": 480,
+          "participants_dia1": 434,
+          "participants_dia2": 428,
+          "participants_both": 422,
+          "participation_rate_dia1": 0.9042,
+          "participation_rate_dia2": 0.8917,
+          "participation_rate_both": 0.8792
+        }
+      },
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 129,
+            "participants_lg_cn": 116,
+            "participants_mat_ch": 118,
+            "participants_both": 116,
+            "participation_rate_lg_cn": 0.8992,
+            "participation_rate_mat_ch": 0.9147,
+            "participation_rate_both": 0.8992
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 170,
+            "participants_lg_cn": 154,
+            "participants_mat_ch": 155,
+            "participants_both": 151,
+            "participation_rate_lg_cn": 0.9059,
+            "participation_rate_mat_ch": 0.9118,
+            "participation_rate_both": 0.8882
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 123,
+            "participants_lg_cn": 112,
+            "participants_mat_ch": 113,
+            "participants_both": 112,
+            "participation_rate_lg_cn": 0.9106,
+            "participation_rate_mat_ch": 0.9187,
+            "participation_rate_both": 0.9106
+          }
+        },
+        "totals": {
+          "total_students": 422,
+          "participants_lg_cn": 382,
+          "participants_mat_ch": 386,
+          "participants_both": 379,
+          "participation_rate_lg_cn": 0.9052,
+          "participation_rate_mat_ch": 0.9147,
+          "participation_rate_both": 0.8981
+        }
+      }
+    },
+    "922717": {
+      "nome": "EE Profª Edith Silveira Dalmaso",
+      "codesc": "922717",
+      "municipio": "SERTÃOZINHO",
+      "nomesc": "EDITH SILVEIRA DALMASO PROFESSORA",
+      "segmentos": [
+        "EF",
+        "AF",
+        "EM"
+      ],
+      "ensino_fundamental": {
+        "grades": {
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 175,
+            "participants_lp": 173,
+            "participants_mat": 173,
+            "participation_rate_lp": 0.9886,
+            "participation_rate_mat": 0.9886,
+            "avg_profic_lp": 252.72,
+            "avg_profic_mat": 321.49,
+            "median_profic_lp": 255.4,
+            "median_profic_mat": 334.4,
+            "std_profic_lp": 50.48,
+            "std_profic_mat": 55.22,
+            "proficiency_levels_lp": {
+              "Avancado": 11,
+              "Adequado": 49,
+              "Basico": 86,
+              "Abaixo do Basico": 27
+            },
+            "proficiency_levels_mat": {
+              "Avancado": 68,
+              "Adequado": 50,
+              "Basico": 45,
+              "Abaixo do Basico": 10
+            }
+          }
+        },
+        "totals": {
+          "total_students": 175,
+          "participants_lp": 173,
+          "participants_mat": 173,
+          "participation_rate_lp": 0.9886,
+          "participation_rate_mat": 0.9886,
+          "avg_profic_lp": 252.72,
+          "avg_profic_mat": 321.49,
+          "median_profic_lp": 255.4,
+          "median_profic_mat": 334.4,
+          "pct_adequado_avancado_lp": 34.7,
+          "pct_adequado_avancado_mat": 68.2,
+          "proficiency_levels_lp": {
+            "Avancado": 11,
+            "Adequado": 49,
+            "Basico": 86,
+            "Abaixo do Basico": 27
+          },
+          "proficiency_levels_mat": {
+            "Avancado": 68,
+            "Adequado": 50,
+            "Basico": 45,
+            "Abaixo do Basico": 10
+          }
+        }
+      },
+      "anos_finais": {
+        "grades": {
+          "6º Ano EF": {
+            "grade_label": "6º Ano EF",
+            "total_students": 85,
+            "participants_dia1": 84,
+            "participants_dia2": 85,
+            "participants_both": 84,
+            "participation_rate_dia1": 0.9882,
+            "participation_rate_dia2": 1.0,
+            "participation_rate_both": 0.9882
+          },
+          "7º Ano EF": {
+            "grade_label": "7º Ano EF",
+            "total_students": 133,
+            "participants_dia1": 131,
+            "participants_dia2": 133,
+            "participants_both": 131,
+            "participation_rate_dia1": 0.985,
+            "participation_rate_dia2": 1.0,
+            "participation_rate_both": 0.985
+          },
+          "8º Ano EF": {
+            "grade_label": "8º Ano EF",
+            "total_students": 152,
+            "participants_dia1": 148,
+            "participants_dia2": 149,
+            "participants_both": 147,
+            "participation_rate_dia1": 0.9737,
+            "participation_rate_dia2": 0.9803,
+            "participation_rate_both": 0.9671
+          },
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 175,
+            "participants_dia1": 173,
+            "participants_dia2": 174,
+            "participants_both": 173,
+            "participation_rate_dia1": 0.9886,
+            "participation_rate_dia2": 0.9943,
+            "participation_rate_both": 0.9886
+          }
+        },
+        "totals": {
+          "total_students": 545,
+          "participants_dia1": 536,
+          "participants_dia2": 541,
+          "participants_both": 535,
+          "participation_rate_dia1": 0.9835,
+          "participation_rate_dia2": 0.9927,
+          "participation_rate_both": 0.9817
+        }
+      },
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 237,
+            "participants_lg_cn": 199,
+            "participants_mat_ch": 198,
+            "participants_both": 192,
+            "participation_rate_lg_cn": 0.8397,
+            "participation_rate_mat_ch": 0.8354,
+            "participation_rate_both": 0.8101
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 156,
+            "participants_lg_cn": 133,
+            "participants_mat_ch": 132,
+            "participants_both": 126,
+            "participation_rate_lg_cn": 0.8526,
+            "participation_rate_mat_ch": 0.8462,
+            "participation_rate_both": 0.8077
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 139,
+            "participants_lg_cn": 123,
+            "participants_mat_ch": 117,
+            "participants_both": 114,
+            "participation_rate_lg_cn": 0.8849,
+            "participation_rate_mat_ch": 0.8417,
+            "participation_rate_both": 0.8201
+          }
+        },
+        "totals": {
+          "total_students": 532,
+          "participants_lg_cn": 455,
+          "participants_mat_ch": 447,
+          "participants_both": 432,
+          "participation_rate_lg_cn": 0.8553,
+          "participation_rate_mat_ch": 0.8402,
+          "participation_rate_both": 0.812
+        }
+      }
+    },
+    "44635": {
+      "nome": "PEI EE Profª Maria Conceição R. Silva Magon",
+      "codesc": "44635",
+      "municipio": "SERTÃOZINHO",
+      "nomesc": "MARIA CONCEICAO RODRIGUES SILVA MAGON PROFESSORA",
+      "segmentos": [
+        "EF",
+        "AF",
+        "EM"
+      ],
+      "ensino_fundamental": {
+        "grades": {
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 31,
+            "participants_lp": 27,
+            "participants_mat": 27,
+            "participation_rate_lp": 0.871,
+            "participation_rate_mat": 0.871,
+            "avg_profic_lp": 251.29,
+            "avg_profic_mat": 289.64,
+            "median_profic_lp": 251.9,
+            "median_profic_mat": 302.2,
+            "std_profic_lp": 42.1,
+            "std_profic_mat": 57.86,
+            "proficiency_levels_lp": {
+              "Avancado": 1,
+              "Adequado": 8,
+              "Basico": 15,
+              "Abaixo do Basico": 3
+            },
+            "proficiency_levels_mat": {
+              "Avancado": 5,
+              "Adequado": 9,
+              "Basico": 6,
+              "Abaixo do Basico": 7
+            }
+          }
+        },
+        "totals": {
+          "total_students": 31,
+          "participants_lp": 27,
+          "participants_mat": 27,
+          "participation_rate_lp": 0.871,
+          "participation_rate_mat": 0.871,
+          "avg_profic_lp": 251.29,
+          "avg_profic_mat": 289.64,
+          "median_profic_lp": 251.9,
+          "median_profic_mat": 302.2,
+          "pct_adequado_avancado_lp": 33.3,
+          "pct_adequado_avancado_mat": 51.9,
+          "proficiency_levels_lp": {
+            "Avancado": 1,
+            "Adequado": 8,
+            "Basico": 15,
+            "Abaixo do Basico": 3
+          },
+          "proficiency_levels_mat": {
+            "Avancado": 5,
+            "Adequado": 9,
+            "Basico": 6,
+            "Abaixo do Basico": 7
+          }
+        }
+      },
+      "anos_finais": {
+        "grades": {
+          "6º Ano EF": {
+            "grade_label": "6º Ano EF",
+            "total_students": 29,
+            "participants_dia1": 25,
+            "participants_dia2": 25,
+            "participants_both": 25,
+            "participation_rate_dia1": 0.8621,
+            "participation_rate_dia2": 0.8621,
+            "participation_rate_both": 0.8621
+          },
+          "7º Ano EF": {
+            "grade_label": "7º Ano EF",
+            "total_students": 26,
+            "participants_dia1": 24,
+            "participants_dia2": 24,
+            "participants_both": 24,
+            "participation_rate_dia1": 0.9231,
+            "participation_rate_dia2": 0.9231,
+            "participation_rate_both": 0.9231
+          },
+          "8º Ano EF": {
+            "grade_label": "8º Ano EF",
+            "total_students": 42,
+            "participants_dia1": 39,
+            "participants_dia2": 38,
+            "participants_both": 38,
+            "participation_rate_dia1": 0.9286,
+            "participation_rate_dia2": 0.9048,
+            "participation_rate_both": 0.9048
+          },
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 31,
+            "participants_dia1": 27,
+            "participants_dia2": 29,
+            "participants_both": 27,
+            "participation_rate_dia1": 0.871,
+            "participation_rate_dia2": 0.9355,
+            "participation_rate_both": 0.871
+          }
+        },
+        "totals": {
+          "total_students": 128,
+          "participants_dia1": 115,
+          "participants_dia2": 116,
+          "participants_both": 114,
+          "participation_rate_dia1": 0.8984,
+          "participation_rate_dia2": 0.9062,
+          "participation_rate_both": 0.8906
+        }
+      },
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 29,
+            "participants_lg_cn": 25,
+            "participants_mat_ch": 25,
+            "participants_both": 25,
+            "participation_rate_lg_cn": 0.8621,
+            "participation_rate_mat_ch": 0.8621,
+            "participation_rate_both": 0.8621
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 22,
+            "participants_lg_cn": 21,
+            "participants_mat_ch": 21,
+            "participants_both": 21,
+            "participation_rate_lg_cn": 0.9545,
+            "participation_rate_mat_ch": 0.9545,
+            "participation_rate_both": 0.9545
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 42,
+            "participants_lg_cn": 36,
+            "participants_mat_ch": 37,
+            "participants_both": 36,
+            "participation_rate_lg_cn": 0.8571,
+            "participation_rate_mat_ch": 0.881,
+            "participation_rate_both": 0.8571
+          }
+        },
+        "totals": {
+          "total_students": 93,
+          "participants_lg_cn": 82,
+          "participants_mat_ch": 83,
+          "participants_both": 82,
+          "participation_rate_lg_cn": 0.8817,
+          "participation_rate_mat_ch": 0.8925,
+          "participation_rate_both": 0.8817
+        }
+      }
+    },
+    "923023": {
+      "nome": "EE Profª Nícia Fabíola Zanutto Giraldi",
+      "codesc": "923023",
+      "municipio": "SERTÃOZINHO",
+      "nomesc": "NICIA FABIOLA ZANUTO GIRALDI PROFESSORA",
+      "segmentos": [
+        "EF",
+        "AF",
+        "EM"
+      ],
+      "ensino_fundamental": {
+        "grades": {
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 137,
+            "participants_lp": 129,
+            "participants_mat": 129,
+            "participation_rate_lp": 0.9416,
+            "participation_rate_mat": 0.9416,
+            "avg_profic_lp": 269.96,
+            "avg_profic_mat": 280.99,
+            "median_profic_lp": 276.1,
+            "median_profic_mat": 286.3,
+            "std_profic_lp": 44.69,
+            "std_profic_mat": 52.14,
+            "proficiency_levels_lp": {
+              "Avancado": 14,
+              "Adequado": 53,
+              "Basico": 52,
+              "Abaixo do Basico": 10
+            },
+            "proficiency_levels_mat": {
+              "Avancado": 15,
+              "Adequado": 39,
+              "Basico": 51,
+              "Abaixo do Basico": 24
+            }
+          }
+        },
+        "totals": {
+          "total_students": 137,
+          "participants_lp": 129,
+          "participants_mat": 129,
+          "participation_rate_lp": 0.9416,
+          "participation_rate_mat": 0.9416,
+          "avg_profic_lp": 269.96,
+          "avg_profic_mat": 280.99,
+          "median_profic_lp": 276.1,
+          "median_profic_mat": 286.3,
+          "pct_adequado_avancado_lp": 51.9,
+          "pct_adequado_avancado_mat": 41.9,
+          "proficiency_levels_lp": {
+            "Avancado": 14,
+            "Adequado": 53,
+            "Basico": 52,
+            "Abaixo do Basico": 10
+          },
+          "proficiency_levels_mat": {
+            "Avancado": 15,
+            "Adequado": 39,
+            "Basico": 51,
+            "Abaixo do Basico": 24
+          }
+        }
+      },
+      "anos_finais": {
+        "grades": {
+          "6º Ano EF": {
+            "grade_label": "6º Ano EF",
+            "total_students": 103,
+            "participants_dia1": 96,
+            "participants_dia2": 92,
+            "participants_both": 90,
+            "participation_rate_dia1": 0.932,
+            "participation_rate_dia2": 0.8932,
+            "participation_rate_both": 0.8738
+          },
+          "7º Ano EF": {
+            "grade_label": "7º Ano EF",
+            "total_students": 143,
+            "participants_dia1": 133,
+            "participants_dia2": 134,
+            "participants_both": 132,
+            "participation_rate_dia1": 0.9301,
+            "participation_rate_dia2": 0.9371,
+            "participation_rate_both": 0.9231
+          },
+          "8º Ano EF": {
+            "grade_label": "8º Ano EF",
+            "total_students": 108,
+            "participants_dia1": 98,
+            "participants_dia2": 98,
+            "participants_both": 96,
+            "participation_rate_dia1": 0.9074,
+            "participation_rate_dia2": 0.9074,
+            "participation_rate_both": 0.8889
+          },
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 137,
+            "participants_dia1": 129,
+            "participants_dia2": 132,
+            "participants_both": 127,
+            "participation_rate_dia1": 0.9416,
+            "participation_rate_dia2": 0.9635,
+            "participation_rate_both": 0.927
+          }
+        },
+        "totals": {
+          "total_students": 491,
+          "participants_dia1": 456,
+          "participants_dia2": 456,
+          "participants_both": 445,
+          "participation_rate_dia1": 0.9287,
+          "participation_rate_dia2": 0.9287,
+          "participation_rate_both": 0.9063
+        }
+      },
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 113,
+            "participants_lg_cn": 105,
+            "participants_mat_ch": 103,
+            "participants_both": 101,
+            "participation_rate_lg_cn": 0.9292,
+            "participation_rate_mat_ch": 0.9115,
+            "participation_rate_both": 0.8938
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 102,
+            "participants_lg_cn": 90,
+            "participants_mat_ch": 88,
+            "participants_both": 88,
+            "participation_rate_lg_cn": 0.8824,
+            "participation_rate_mat_ch": 0.8627,
+            "participation_rate_both": 0.8627
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 62,
+            "participants_lg_cn": 54,
+            "participants_mat_ch": 52,
+            "participants_both": 52,
+            "participation_rate_lg_cn": 0.871,
+            "participation_rate_mat_ch": 0.8387,
+            "participation_rate_both": 0.8387
+          }
+        },
+        "totals": {
+          "total_students": 277,
+          "participants_lg_cn": 249,
+          "participants_mat_ch": 243,
+          "participants_both": 241,
+          "participation_rate_lg_cn": 0.8989,
+          "participation_rate_mat_ch": 0.8773,
+          "participation_rate_both": 0.87
+        }
+      }
+    },
+    "22585": {
+      "nome": "EE Odulfo de Oliveira Guimarães",
+      "codesc": "22585",
+      "municipio": "VIRADOURO",
+      "nomesc": "ODULFO DE OLIVEIRA GUIMARAES",
+      "segmentos": [
+        "EF",
+        "AF",
+        "EM"
+      ],
+      "ensino_fundamental": {
+        "grades": {
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 51,
+            "participants_lp": 48,
+            "participants_mat": 48,
+            "participation_rate_lp": 0.9412,
+            "participation_rate_mat": 0.9412,
+            "avg_profic_lp": 248.55,
+            "avg_profic_mat": 295.48,
+            "median_profic_lp": 246.9,
+            "median_profic_mat": 321.65,
+            "std_profic_lp": 63.85,
+            "std_profic_mat": 67.63,
+            "proficiency_levels_lp": {
+              "Avancado": 6,
+              "Adequado": 10,
+              "Basico": 20,
+              "Abaixo do Basico": 12
+            },
+            "proficiency_levels_mat": {
+              "Avancado": 13,
+              "Adequado": 13,
+              "Basico": 13,
+              "Abaixo do Basico": 9
+            }
+          }
+        },
+        "totals": {
+          "total_students": 51,
+          "participants_lp": 48,
+          "participants_mat": 48,
+          "participation_rate_lp": 0.9412,
+          "participation_rate_mat": 0.9412,
+          "avg_profic_lp": 248.55,
+          "avg_profic_mat": 295.48,
+          "median_profic_lp": 246.9,
+          "median_profic_mat": 321.65,
+          "pct_adequado_avancado_lp": 33.3,
+          "pct_adequado_avancado_mat": 54.2,
+          "proficiency_levels_lp": {
+            "Avancado": 6,
+            "Adequado": 10,
+            "Basico": 20,
+            "Abaixo do Basico": 12
+          },
+          "proficiency_levels_mat": {
+            "Avancado": 13,
+            "Adequado": 13,
+            "Basico": 13,
+            "Abaixo do Basico": 9
+          }
+        }
+      },
+      "anos_finais": {
+        "grades": {
+          "6º Ano EF": {
+            "grade_label": "6º Ano EF",
+            "total_students": 51,
+            "participants_dia1": 49,
+            "participants_dia2": 49,
+            "participants_both": 49,
+            "participation_rate_dia1": 0.9608,
+            "participation_rate_dia2": 0.9608,
+            "participation_rate_both": 0.9608
+          },
+          "7º Ano EF": {
+            "grade_label": "7º Ano EF",
+            "total_students": 53,
+            "participants_dia1": 52,
+            "participants_dia2": 52,
+            "participants_both": 52,
+            "participation_rate_dia1": 0.9811,
+            "participation_rate_dia2": 0.9811,
+            "participation_rate_both": 0.9811
+          },
+          "8º Ano EF": {
+            "grade_label": "8º Ano EF",
+            "total_students": 54,
+            "participants_dia1": 51,
+            "participants_dia2": 50,
+            "participants_both": 50,
+            "participation_rate_dia1": 0.9444,
+            "participation_rate_dia2": 0.9259,
+            "participation_rate_both": 0.9259
+          },
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 51,
+            "participants_dia1": 48,
+            "participants_dia2": 48,
+            "participants_both": 48,
+            "participation_rate_dia1": 0.9412,
+            "participation_rate_dia2": 0.9412,
+            "participation_rate_both": 0.9412
+          }
+        },
+        "totals": {
+          "total_students": 209,
+          "participants_dia1": 200,
+          "participants_dia2": 199,
+          "participants_both": 199,
+          "participation_rate_dia1": 0.9569,
+          "participation_rate_dia2": 0.9522,
+          "participation_rate_both": 0.9522
+        }
+      },
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 142,
+            "participants_lg_cn": 122,
+            "participants_mat_ch": 127,
+            "participants_both": 121,
+            "participation_rate_lg_cn": 0.8592,
+            "participation_rate_mat_ch": 0.8944,
+            "participation_rate_both": 0.8521
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 126,
+            "participants_lg_cn": 109,
+            "participants_mat_ch": 108,
+            "participants_both": 105,
+            "participation_rate_lg_cn": 0.8651,
+            "participation_rate_mat_ch": 0.8571,
+            "participation_rate_both": 0.8333
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 101,
+            "participants_lg_cn": 88,
+            "participants_mat_ch": 89,
+            "participants_both": 87,
+            "participation_rate_lg_cn": 0.8713,
+            "participation_rate_mat_ch": 0.8812,
+            "participation_rate_both": 0.8614
+          }
+        },
+        "totals": {
+          "total_students": 369,
+          "participants_lg_cn": 319,
+          "participants_mat_ch": 324,
+          "participants_both": 313,
+          "participation_rate_lg_cn": 0.8645,
+          "participation_rate_mat_ch": 0.878,
+          "participation_rate_both": 0.8482
+        }
+      }
+    },
+    "22561": {
+      "nome": "EE Profª Josepha Castro",
+      "codesc": "22561",
+      "municipio": "PONTAL",
+      "nomesc": "JOSEPHA CASTRO PROFESSORA",
+      "segmentos": [
+        "EF",
+        "AF"
+      ],
+      "ensino_fundamental": {
+        "grades": {
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 106,
+            "participants_lp": 102,
+            "participants_mat": 102,
+            "participation_rate_lp": 0.9623,
+            "participation_rate_mat": 0.9623,
+            "avg_profic_lp": 249.05,
+            "avg_profic_mat": 295.59,
+            "median_profic_lp": 244.3,
+            "median_profic_mat": 304.4,
+            "std_profic_lp": 58.21,
+            "std_profic_mat": 57.35,
+            "proficiency_levels_lp": {
+              "Avancado": 12,
+              "Adequado": 24,
+              "Basico": 45,
+              "Abaixo do Basico": 21
+            },
+            "proficiency_levels_mat": {
+              "Avancado": 21,
+              "Adequado": 30,
+              "Basico": 34,
+              "Abaixo do Basico": 17
+            }
+          }
+        },
+        "totals": {
+          "total_students": 106,
+          "participants_lp": 102,
+          "participants_mat": 102,
+          "participation_rate_lp": 0.9623,
+          "participation_rate_mat": 0.9623,
+          "avg_profic_lp": 249.05,
+          "avg_profic_mat": 295.59,
+          "median_profic_lp": 244.3,
+          "median_profic_mat": 304.4,
+          "pct_adequado_avancado_lp": 35.3,
+          "pct_adequado_avancado_mat": 50.0,
+          "proficiency_levels_lp": {
+            "Avancado": 12,
+            "Adequado": 24,
+            "Basico": 45,
+            "Abaixo do Basico": 21
+          },
+          "proficiency_levels_mat": {
+            "Avancado": 21,
+            "Adequado": 30,
+            "Basico": 34,
+            "Abaixo do Basico": 17
+          }
+        }
+      },
+      "anos_finais": {
+        "grades": {
+          "6º Ano EF": {
+            "grade_label": "6º Ano EF",
+            "total_students": 98,
+            "participants_dia1": 94,
+            "participants_dia2": 94,
+            "participants_both": 94,
+            "participation_rate_dia1": 0.9592,
+            "participation_rate_dia2": 0.9592,
+            "participation_rate_both": 0.9592
+          },
+          "7º Ano EF": {
+            "grade_label": "7º Ano EF",
+            "total_students": 137,
+            "participants_dia1": 129,
+            "participants_dia2": 129,
+            "participants_both": 129,
+            "participation_rate_dia1": 0.9416,
+            "participation_rate_dia2": 0.9416,
+            "participation_rate_both": 0.9416
+          },
+          "8º Ano EF": {
+            "grade_label": "8º Ano EF",
+            "total_students": 159,
+            "participants_dia1": 149,
+            "participants_dia2": 147,
+            "participants_both": 146,
+            "participation_rate_dia1": 0.9371,
+            "participation_rate_dia2": 0.9245,
+            "participation_rate_both": 0.9182
+          },
+          "9º Ano EF": {
+            "grade_label": "9º Ano EF",
+            "total_students": 106,
+            "participants_dia1": 102,
+            "participants_dia2": 102,
+            "participants_both": 102,
+            "participation_rate_dia1": 0.9623,
+            "participation_rate_dia2": 0.9623,
+            "participation_rate_both": 0.9623
+          }
+        },
+        "totals": {
+          "total_students": 500,
+          "participants_dia1": 474,
+          "participants_dia2": 472,
+          "participants_both": 471,
+          "participation_rate_dia1": 0.948,
+          "participation_rate_dia2": 0.944,
+          "participation_rate_both": 0.942
+        }
+      },
+      "ensino_medio": null
+    },
+    "23553": {
+      "nome": "EE Prof. Bruno Pieroni",
+      "codesc": "23553",
+      "municipio": "SERTÃOZINHO",
+      "nomesc": "BRUNO PIERONI PROFESSOR",
+      "segmentos": [
+        "EM"
+      ],
+      "ensino_fundamental": null,
+      "anos_finais": null,
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 255,
+            "participants_lg_cn": 238,
+            "participants_mat_ch": 230,
+            "participants_both": 229,
+            "participation_rate_lg_cn": 0.9333,
+            "participation_rate_mat_ch": 0.902,
+            "participation_rate_both": 0.898
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 187,
+            "participants_lg_cn": 181,
+            "participants_mat_ch": 178,
+            "participants_both": 176,
+            "participation_rate_lg_cn": 0.9679,
+            "participation_rate_mat_ch": 0.9519,
+            "participation_rate_both": 0.9412
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 194,
+            "participants_lg_cn": 180,
+            "participants_mat_ch": 177,
+            "participants_both": 174,
+            "participation_rate_lg_cn": 0.9278,
+            "participation_rate_mat_ch": 0.9124,
+            "participation_rate_both": 0.8969
+          }
+        },
+        "totals": {
+          "total_students": 636,
+          "participants_lg_cn": 599,
+          "participants_mat_ch": 585,
+          "participants_both": 579,
+          "participation_rate_lg_cn": 0.9418,
+          "participation_rate_mat_ch": 0.9198,
+          "participation_rate_both": 0.9104
+        }
+      }
+    },
+    "23607": {
+      "nome": "PEI EE Winston Churchill",
+      "codesc": "23607",
+      "municipio": "SERTÃOZINHO",
+      "nomesc": "WINSTON CHURCHILL",
+      "segmentos": [
+        "EM"
+      ],
+      "ensino_fundamental": null,
+      "anos_finais": null,
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 158,
+            "participants_lg_cn": 147,
+            "participants_mat_ch": 146,
+            "participants_both": 145,
+            "participation_rate_lg_cn": 0.9304,
+            "participation_rate_mat_ch": 0.9241,
+            "participation_rate_both": 0.9177
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 102,
+            "participants_lg_cn": 101,
+            "participants_mat_ch": 100,
+            "participants_both": 100,
+            "participation_rate_lg_cn": 0.9902,
+            "participation_rate_mat_ch": 0.9804,
+            "participation_rate_both": 0.9804
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 107,
+            "participants_lg_cn": 104,
+            "participants_mat_ch": 106,
+            "participants_both": 104,
+            "participation_rate_lg_cn": 0.972,
+            "participation_rate_mat_ch": 0.9907,
+            "participation_rate_both": 0.972
+          }
+        },
+        "totals": {
+          "total_students": 367,
+          "participants_lg_cn": 352,
+          "participants_mat_ch": 352,
+          "participants_both": 349,
+          "participation_rate_lg_cn": 0.9591,
+          "participation_rate_mat_ch": 0.9591,
+          "participation_rate_both": 0.951
+        }
+      }
+    },
+    "23985": {
+      "nome": "EE Dr. Mário Lins",
+      "codesc": "23985",
+      "municipio": "JARDINÓPOLIS",
+      "nomesc": "MARIO LINS DOUTOR",
+      "segmentos": [
+        "EM"
+      ],
+      "ensino_fundamental": null,
+      "anos_finais": null,
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 33,
+            "participants_lg_cn": 32,
+            "participants_mat_ch": 32,
+            "participants_both": 32,
+            "participation_rate_lg_cn": 0.9697,
+            "participation_rate_mat_ch": 0.9697,
+            "participation_rate_both": 0.9697
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 37,
+            "participants_lg_cn": 36,
+            "participants_mat_ch": 36,
+            "participants_both": 36,
+            "participation_rate_lg_cn": 0.973,
+            "participation_rate_mat_ch": 0.973,
+            "participation_rate_both": 0.973
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 36,
+            "participants_lg_cn": 36,
+            "participants_mat_ch": 36,
+            "participants_both": 36,
+            "participation_rate_lg_cn": 1.0,
+            "participation_rate_mat_ch": 1.0,
+            "participation_rate_both": 1.0
+          }
+        },
+        "totals": {
+          "total_students": 106,
+          "participants_lg_cn": 104,
+          "participants_mat_ch": 104,
+          "participants_both": 104,
+          "participation_rate_lg_cn": 0.9811,
+          "participation_rate_mat_ch": 0.9811,
+          "participation_rate_both": 0.9811
+        }
+      }
+    },
+    "915002": {
+      "nome": "EE Luiz Marcari",
+      "codesc": "915002",
+      "municipio": "BARRINHA",
+      "nomesc": "LUIZ MARCARI",
+      "segmentos": [
+        "EM"
+      ],
+      "ensino_fundamental": null,
+      "anos_finais": null,
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 44,
+            "participants_lg_cn": 40,
+            "participants_mat_ch": 41,
+            "participants_both": 40,
+            "participation_rate_lg_cn": 0.9091,
+            "participation_rate_mat_ch": 0.9318,
+            "participation_rate_both": 0.9091
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 76,
+            "participants_lg_cn": 69,
+            "participants_mat_ch": 69,
+            "participants_both": 69,
+            "participation_rate_lg_cn": 0.9079,
+            "participation_rate_mat_ch": 0.9079,
+            "participation_rate_both": 0.9079
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 132,
+            "participants_lg_cn": 131,
+            "participants_mat_ch": 130,
+            "participants_both": 130,
+            "participation_rate_lg_cn": 0.9924,
+            "participation_rate_mat_ch": 0.9848,
+            "participation_rate_both": 0.9848
+          }
+        },
+        "totals": {
+          "total_students": 252,
+          "participants_lg_cn": 240,
+          "participants_mat_ch": 240,
+          "participants_both": 239,
+          "participation_rate_lg_cn": 0.9524,
+          "participation_rate_mat_ch": 0.9524,
+          "participation_rate_both": 0.9484
+        }
+      }
+    },
+    "22639": {
+      "nome": "PEI EE Profª Maria Élyde Mônaco dos Santos",
+      "codesc": "22639",
+      "municipio": "TERRA ROXA",
+      "nomesc": "MARIA ELYDE MONACO DOS SANTOS PROFESSORA",
+      "segmentos": [
+        "EM"
+      ],
+      "ensino_fundamental": null,
+      "anos_finais": null,
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 96,
+            "participants_lg_cn": 85,
+            "participants_mat_ch": 85,
+            "participants_both": 84,
+            "participation_rate_lg_cn": 0.8854,
+            "participation_rate_mat_ch": 0.8854,
+            "participation_rate_both": 0.875
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 67,
+            "participants_lg_cn": 63,
+            "participants_mat_ch": 62,
+            "participants_both": 62,
+            "participation_rate_lg_cn": 0.9403,
+            "participation_rate_mat_ch": 0.9254,
+            "participation_rate_both": 0.9254
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 65,
+            "participants_lg_cn": 55,
+            "participants_mat_ch": 58,
+            "participants_both": 54,
+            "participation_rate_lg_cn": 0.8462,
+            "participation_rate_mat_ch": 0.8923,
+            "participation_rate_both": 0.8308
+          }
+        },
+        "totals": {
+          "total_students": 228,
+          "participants_lg_cn": 203,
+          "participants_mat_ch": 205,
+          "participants_both": 200,
+          "participation_rate_lg_cn": 0.8904,
+          "participation_rate_mat_ch": 0.8991,
+          "participation_rate_both": 0.8772
+        }
+      }
+    },
+    "23528": {
+      "nome": "PEI EE Prof. Nestor Gomes de Araújo",
+      "codesc": "23528",
+      "municipio": "DUMONT",
+      "nomesc": "NESTOR GOMES DE ARAUJO PROFESSOR",
+      "segmentos": [
+        "EM"
+      ],
+      "ensino_fundamental": null,
+      "anos_finais": null,
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 99,
+            "participants_lg_cn": 89,
+            "participants_mat_ch": 88,
+            "participants_both": 87,
+            "participation_rate_lg_cn": 0.899,
+            "participation_rate_mat_ch": 0.8889,
+            "participation_rate_both": 0.8788
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 115,
+            "participants_lg_cn": 107,
+            "participants_mat_ch": 103,
+            "participants_both": 103,
+            "participation_rate_lg_cn": 0.9304,
+            "participation_rate_mat_ch": 0.8957,
+            "participation_rate_both": 0.8957
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 78,
+            "participants_lg_cn": 68,
+            "participants_mat_ch": 68,
+            "participants_both": 67,
+            "participation_rate_lg_cn": 0.8718,
+            "participation_rate_mat_ch": 0.8718,
+            "participation_rate_both": 0.859
+          }
+        },
+        "totals": {
+          "total_students": 292,
+          "participants_lg_cn": 264,
+          "participants_mat_ch": 259,
+          "participants_both": 257,
+          "participation_rate_lg_cn": 0.9041,
+          "participation_rate_mat_ch": 0.887,
+          "participation_rate_both": 0.8801
+        }
+      }
+    },
+    "24144": {
+      "nome": "EE Prof. Plínio Berardo",
+      "codesc": "24144",
+      "municipio": "JARDINÓPOLIS",
+      "nomesc": "PLINIO BERARDO PROFESSOR",
+      "segmentos": [
+        "EM"
+      ],
+      "ensino_fundamental": null,
+      "anos_finais": null,
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 409,
+            "participants_lg_cn": 345,
+            "participants_mat_ch": 338,
+            "participants_both": 332,
+            "participation_rate_lg_cn": 0.8435,
+            "participation_rate_mat_ch": 0.8264,
+            "participation_rate_both": 0.8117
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 342,
+            "participants_lg_cn": 280,
+            "participants_mat_ch": 280,
+            "participants_both": 276,
+            "participation_rate_lg_cn": 0.8187,
+            "participation_rate_mat_ch": 0.8187,
+            "participation_rate_both": 0.807
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 241,
+            "participants_lg_cn": 213,
+            "participants_mat_ch": 213,
+            "participants_both": 210,
+            "participation_rate_lg_cn": 0.8838,
+            "participation_rate_mat_ch": 0.8838,
+            "participation_rate_both": 0.8714
+          }
+        },
+        "totals": {
+          "total_students": 992,
+          "participants_lg_cn": 838,
+          "participants_mat_ch": 831,
+          "participants_both": 818,
+          "participation_rate_lg_cn": 0.8448,
+          "participation_rate_mat_ch": 0.8377,
+          "participation_rate_both": 0.8246
+        }
+      }
+    },
+    "127875": {
+      "nome": "EE Profª Yolanda Luiz Sichieri",
+      "codesc": "127875",
+      "municipio": "PONTAL",
+      "nomesc": "YOLANDA LUIZ SICHIERI PROFESSORA",
+      "segmentos": [
+        "EM"
+      ],
+      "ensino_fundamental": null,
+      "anos_finais": null,
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 187,
+            "participants_lg_cn": 171,
+            "participants_mat_ch": 169,
+            "participants_both": 168,
+            "participation_rate_lg_cn": 0.9144,
+            "participation_rate_mat_ch": 0.9037,
+            "participation_rate_both": 0.8984
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 256,
+            "participants_lg_cn": 231,
+            "participants_mat_ch": 229,
+            "participants_both": 228,
+            "participation_rate_lg_cn": 0.9023,
+            "participation_rate_mat_ch": 0.8945,
+            "participation_rate_both": 0.8906
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 158,
+            "participants_lg_cn": 144,
+            "participants_mat_ch": 142,
+            "participants_both": 139,
+            "participation_rate_lg_cn": 0.9114,
+            "participation_rate_mat_ch": 0.8987,
+            "participation_rate_both": 0.8797
+          }
+        },
+        "totals": {
+          "total_students": 601,
+          "participants_lg_cn": 546,
+          "participants_mat_ch": 540,
+          "participants_both": 535,
+          "participation_rate_lg_cn": 0.9085,
+          "participation_rate_mat_ch": 0.8985,
+          "participation_rate_both": 0.8902
+        }
+      }
+    },
+    "23619": {
+      "nome": "PEI EE Prof. José Luiz de Siqueira",
+      "codesc": "23619",
+      "municipio": "BARRINHA",
+      "nomesc": "JOSE LUIZ DE SIQUEIRA PROFESSOR",
+      "segmentos": [
+        "EM"
+      ],
+      "ensino_fundamental": null,
+      "anos_finais": null,
+      "ensino_medio": {
+        "grades": {
+          "EM-1ª série": {
+            "grade_label": "EM-1ª série",
+            "total_students": 287,
+            "participants_lg_cn": 264,
+            "participants_mat_ch": 270,
+            "participants_both": 262,
+            "participation_rate_lg_cn": 0.9199,
+            "participation_rate_mat_ch": 0.9408,
+            "participation_rate_both": 0.9129
+          },
+          "EM-2ª série": {
+            "grade_label": "EM-2ª série",
+            "total_students": 216,
+            "participants_lg_cn": 209,
+            "participants_mat_ch": 207,
+            "participants_both": 207,
+            "participation_rate_lg_cn": 0.9676,
+            "participation_rate_mat_ch": 0.9583,
+            "participation_rate_both": 0.9583
+          },
+          "EM-3ª série": {
+            "grade_label": "EM-3ª série",
+            "total_students": 177,
+            "participants_lg_cn": 172,
+            "participants_mat_ch": 168,
+            "participants_both": 168,
+            "participation_rate_lg_cn": 0.9718,
+            "participation_rate_mat_ch": 0.9492,
+            "participation_rate_both": 0.9492
+          }
+        },
+        "totals": {
+          "total_students": 680,
+          "participants_lg_cn": 645,
+          "participants_mat_ch": 645,
+          "participants_both": 637,
+          "participation_rate_lg_cn": 0.9485,
+          "participation_rate_mat_ch": 0.9485,
+          "participation_rate_both": 0.9368
+        }
+      }
+    }
+  },
+  "rankings": {
+    "proficiencia_lp": [
+      {
+        "codesc": "22573",
+        "nome": "EE Dona Adélia Frascino",
+        "municipio": "PONTAL",
+        "valor": 323.92,
+        "participantes": 6
+      },
+      {
+        "codesc": "914356",
+        "nome": "EE Prof. Basílio Rodrigues da Silva",
+        "municipio": "PONTAL",
+        "valor": 277.7,
+        "participantes": 66
+      },
+      {
+        "codesc": "22676",
+        "nome": "PEI EE Profª Dolores Belém Novaes",
+        "municipio": "PONTAL",
+        "valor": 272.47,
+        "participantes": 59
+      },
+      {
+        "codesc": "22559",
+        "nome": "EE Profª Dolores Martins de Castro",
+        "municipio": "PONTAL",
+        "valor": 270.57,
+        "participantes": 26
+      },
+      {
+        "codesc": "923023",
+        "nome": "EE Profª Nícia Fabíola Zanutto Giraldi",
+        "municipio": "SERTÃOZINHO",
+        "valor": 269.96,
+        "participantes": 129
+      },
+      {
+        "codesc": "49585",
+        "nome": "EE Anna Passamonti Balardin",
+        "municipio": "SERTÃOZINHO",
+        "valor": 267.33,
+        "participantes": 63
+      },
+      {
+        "codesc": "22664",
+        "nome": "PEI EE Domingos Paro",
+        "municipio": "PITANGUEIRAS",
+        "valor": 263.88,
+        "participantes": 36
+      },
+      {
+        "codesc": "22755",
+        "nome": "EE Maurício Montecchi",
+        "municipio": "PITANGUEIRAS",
+        "valor": 258.62,
+        "participantes": 110
+      },
+      {
+        "codesc": "22640",
+        "nome": "EE Orminda Guimarães Cotrim",
+        "municipio": "PITANGUEIRAS",
+        "valor": 254.09,
+        "participantes": 96
+      },
+      {
+        "codesc": "922717",
+        "nome": "EE Profª Edith Silveira Dalmaso",
+        "municipio": "SERTÃOZINHO",
+        "valor": 252.72,
+        "participantes": 173
+      },
+      {
+        "codesc": "22494",
+        "nome": "PEI EE Maria Falconi de Felício",
+        "municipio": "PITANGUEIRAS",
+        "valor": 251.9,
+        "participantes": 51
+      },
+      {
+        "codesc": "44635",
+        "nome": "PEI EE Profª Maria Conceição R. Silva Magon",
+        "municipio": "SERTÃOZINHO",
+        "valor": 251.29,
+        "participantes": 27
+      },
+      {
+        "codesc": "23620",
+        "nome": "PEI EE Dr. Antônio Furlan Júnior",
+        "municipio": "SERTÃOZINHO",
+        "valor": 251.25,
+        "participantes": 129
+      },
+      {
+        "codesc": "23486",
+        "nome": "EE Dr. Isaías José Ferreira",
+        "municipio": "SERTÃOZINHO",
+        "valor": 250.54,
+        "participantes": 95
+      },
+      {
+        "codesc": "22561",
+        "nome": "EE Profª Josepha Castro",
+        "municipio": "PONTAL",
+        "valor": 249.05,
+        "participantes": 102
+      },
+      {
+        "codesc": "22585",
+        "nome": "EE Odulfo de Oliveira Guimarães",
+        "municipio": "VIRADOURO",
+        "valor": 248.55,
+        "participantes": 48
+      },
+      {
+        "codesc": "905847",
+        "nome": "EE Ferrucio Chiaratti",
+        "municipio": "SERTÃOZINHO",
+        "valor": 238.31,
+        "participantes": 124
+      }
+    ],
+    "proficiencia_mat": [
+      {
+        "codesc": "22573",
+        "nome": "EE Dona Adélia Frascino",
+        "municipio": "PONTAL",
+        "valor": 364.4,
+        "participantes": 6
+      },
+      {
+        "codesc": "22676",
+        "nome": "PEI EE Profª Dolores Belém Novaes",
+        "municipio": "PONTAL",
+        "valor": 333.78,
+        "participantes": 59
+      },
+      {
+        "codesc": "914356",
+        "nome": "EE Prof. Basílio Rodrigues da Silva",
+        "municipio": "PONTAL",
+        "valor": 322.94,
+        "participantes": 66
+      },
+      {
+        "codesc": "922717",
+        "nome": "EE Profª Edith Silveira Dalmaso",
+        "municipio": "SERTÃOZINHO",
+        "valor": 321.49,
+        "participantes": 173
+      },
+      {
+        "codesc": "22559",
+        "nome": "EE Profª Dolores Martins de Castro",
+        "municipio": "PONTAL",
+        "valor": 319.52,
+        "participantes": 26
+      },
+      {
+        "codesc": "22664",
+        "nome": "PEI EE Domingos Paro",
+        "municipio": "PITANGUEIRAS",
+        "valor": 316.86,
+        "participantes": 36
+      },
+      {
+        "codesc": "22494",
+        "nome": "PEI EE Maria Falconi de Felício",
+        "municipio": "PITANGUEIRAS",
+        "valor": 308.94,
+        "participantes": 51
+      },
+      {
+        "codesc": "22561",
+        "nome": "EE Profª Josepha Castro",
+        "municipio": "PONTAL",
+        "valor": 295.59,
+        "participantes": 102
+      },
+      {
+        "codesc": "22585",
+        "nome": "EE Odulfo de Oliveira Guimarães",
+        "municipio": "VIRADOURO",
+        "valor": 295.48,
+        "participantes": 48
+      },
+      {
+        "codesc": "49585",
+        "nome": "EE Anna Passamonti Balardin",
+        "municipio": "SERTÃOZINHO",
+        "valor": 295.11,
+        "participantes": 63
+      },
+      {
+        "codesc": "44635",
+        "nome": "PEI EE Profª Maria Conceição R. Silva Magon",
+        "municipio": "SERTÃOZINHO",
+        "valor": 289.64,
+        "participantes": 27
+      },
+      {
+        "codesc": "22755",
+        "nome": "EE Maurício Montecchi",
+        "municipio": "PITANGUEIRAS",
+        "valor": 285.74,
+        "participantes": 110
+      },
+      {
+        "codesc": "923023",
+        "nome": "EE Profª Nícia Fabíola Zanutto Giraldi",
+        "municipio": "SERTÃOZINHO",
+        "valor": 280.99,
+        "participantes": 129
+      },
+      {
+        "codesc": "23620",
+        "nome": "PEI EE Dr. Antônio Furlan Júnior",
+        "municipio": "SERTÃOZINHO",
+        "valor": 272.09,
+        "participantes": 129
+      },
+      {
+        "codesc": "22640",
+        "nome": "EE Orminda Guimarães Cotrim",
+        "municipio": "PITANGUEIRAS",
+        "valor": 267.46,
+        "participantes": 96
+      },
+      {
+        "codesc": "23486",
+        "nome": "EE Dr. Isaías José Ferreira",
+        "municipio": "SERTÃOZINHO",
+        "valor": 267.39,
+        "participantes": 95
+      },
+      {
+        "codesc": "905847",
+        "nome": "EE Ferrucio Chiaratti",
+        "municipio": "SERTÃOZINHO",
+        "valor": 265.51,
+        "participantes": 124
+      }
+    ],
+    "pct_adequado_avancado_lp": [
+      {
+        "codesc": "22573",
+        "nome": "EE Dona Adélia Frascino",
+        "municipio": "PONTAL",
+        "valor": 100.0,
+        "participantes": 6
+      },
+      {
+        "codesc": "914356",
+        "nome": "EE Prof. Basílio Rodrigues da Silva",
+        "municipio": "PONTAL",
+        "valor": 56.1,
+        "participantes": 66
+      },
+      {
+        "codesc": "49585",
+        "nome": "EE Anna Passamonti Balardin",
+        "municipio": "SERTÃOZINHO",
+        "valor": 52.4,
+        "participantes": 63
+      },
+      {
+        "codesc": "923023",
+        "nome": "EE Profª Nícia Fabíola Zanutto Giraldi",
+        "municipio": "SERTÃOZINHO",
+        "valor": 51.9,
+        "participantes": 129
+      },
+      {
+        "codesc": "22676",
+        "nome": "PEI EE Profª Dolores Belém Novaes",
+        "municipio": "PONTAL",
+        "valor": 50.8,
+        "participantes": 59
+      },
+      {
+        "codesc": "22559",
+        "nome": "EE Profª Dolores Martins de Castro",
+        "municipio": "PONTAL",
+        "valor": 50.0,
+        "participantes": 26
+      },
+      {
+        "codesc": "22664",
+        "nome": "PEI EE Domingos Paro",
+        "municipio": "PITANGUEIRAS",
+        "valor": 44.4,
+        "participantes": 36
+      },
+      {
+        "codesc": "22640",
+        "nome": "EE Orminda Guimarães Cotrim",
+        "municipio": "PITANGUEIRAS",
+        "valor": 37.5,
+        "participantes": 96
+      },
+      {
+        "codesc": "22561",
+        "nome": "EE Profª Josepha Castro",
+        "municipio": "PONTAL",
+        "valor": 35.3,
+        "participantes": 102
+      },
+      {
+        "codesc": "922717",
+        "nome": "EE Profª Edith Silveira Dalmaso",
+        "municipio": "SERTÃOZINHO",
+        "valor": 34.7,
+        "participantes": 173
+      },
+      {
+        "codesc": "22755",
+        "nome": "EE Maurício Montecchi",
+        "municipio": "PITANGUEIRAS",
+        "valor": 34.5,
+        "participantes": 110
+      },
+      {
+        "codesc": "44635",
+        "nome": "PEI EE Profª Maria Conceição R. Silva Magon",
+        "municipio": "SERTÃOZINHO",
+        "valor": 33.3,
+        "participantes": 27
+      },
+      {
+        "codesc": "22585",
+        "nome": "EE Odulfo de Oliveira Guimarães",
+        "municipio": "VIRADOURO",
+        "valor": 33.3,
+        "participantes": 48
+      },
+      {
+        "codesc": "23620",
+        "nome": "PEI EE Dr. Antônio Furlan Júnior",
+        "municipio": "SERTÃOZINHO",
+        "valor": 32.6,
+        "participantes": 129
+      },
+      {
+        "codesc": "23486",
+        "nome": "EE Dr. Isaías José Ferreira",
+        "municipio": "SERTÃOZINHO",
+        "valor": 31.6,
+        "participantes": 95
+      },
+      {
+        "codesc": "22494",
+        "nome": "PEI EE Maria Falconi de Felício",
+        "municipio": "PITANGUEIRAS",
+        "valor": 29.4,
+        "participantes": 51
+      },
+      {
+        "codesc": "905847",
+        "nome": "EE Ferrucio Chiaratti",
+        "municipio": "SERTÃOZINHO",
+        "valor": 25.0,
+        "participantes": 124
+      }
+    ],
+    "pct_adequado_avancado_mat": [
+      {
+        "codesc": "22573",
+        "nome": "EE Dona Adélia Frascino",
+        "municipio": "PONTAL",
+        "valor": 100.0,
+        "participantes": 6
+      },
+      {
+        "codesc": "22676",
+        "nome": "PEI EE Profª Dolores Belém Novaes",
+        "municipio": "PONTAL",
+        "valor": 83.1,
+        "participantes": 59
+      },
+      {
+        "codesc": "914356",
+        "nome": "EE Prof. Basílio Rodrigues da Silva",
+        "municipio": "PONTAL",
+        "valor": 78.8,
+        "participantes": 66
+      },
+      {
+        "codesc": "22559",
+        "nome": "EE Profª Dolores Martins de Castro",
+        "municipio": "PONTAL",
+        "valor": 73.1,
+        "participantes": 26
+      },
+      {
+        "codesc": "22664",
+        "nome": "PEI EE Domingos Paro",
+        "municipio": "PITANGUEIRAS",
+        "valor": 72.2,
+        "participantes": 36
+      },
+      {
+        "codesc": "922717",
+        "nome": "EE Profª Edith Silveira Dalmaso",
+        "municipio": "SERTÃOZINHO",
+        "valor": 68.2,
+        "participantes": 173
+      },
+      {
+        "codesc": "22494",
+        "nome": "PEI EE Maria Falconi de Felício",
+        "municipio": "PITANGUEIRAS",
+        "valor": 60.8,
+        "participantes": 51
+      },
+      {
+        "codesc": "22585",
+        "nome": "EE Odulfo de Oliveira Guimarães",
+        "municipio": "VIRADOURO",
+        "valor": 54.2,
+        "participantes": 48
+      },
+      {
+        "codesc": "44635",
+        "nome": "PEI EE Profª Maria Conceição R. Silva Magon",
+        "municipio": "SERTÃOZINHO",
+        "valor": 51.9,
+        "participantes": 27
+      },
+      {
+        "codesc": "22561",
+        "nome": "EE Profª Josepha Castro",
+        "municipio": "PONTAL",
+        "valor": 50.0,
+        "participantes": 102
+      },
+      {
+        "codesc": "49585",
+        "nome": "EE Anna Passamonti Balardin",
+        "municipio": "SERTÃOZINHO",
+        "valor": 46.0,
+        "participantes": 63
+      },
+      {
+        "codesc": "923023",
+        "nome": "EE Profª Nícia Fabíola Zanutto Giraldi",
+        "municipio": "SERTÃOZINHO",
+        "valor": 41.9,
+        "participantes": 129
+      },
+      {
+        "codesc": "22755",
+        "nome": "EE Maurício Montecchi",
+        "municipio": "PITANGUEIRAS",
+        "valor": 40.9,
+        "participantes": 110
+      },
+      {
+        "codesc": "905847",
+        "nome": "EE Ferrucio Chiaratti",
+        "municipio": "SERTÃOZINHO",
+        "valor": 29.8,
+        "participantes": 124
+      },
+      {
+        "codesc": "23486",
+        "nome": "EE Dr. Isaías José Ferreira",
+        "municipio": "SERTÃOZINHO",
+        "valor": 27.4,
+        "participantes": 95
+      },
+      {
+        "codesc": "23620",
+        "nome": "PEI EE Dr. Antônio Furlan Júnior",
+        "municipio": "SERTÃOZINHO",
+        "valor": 27.1,
+        "participantes": 129
+      },
+      {
+        "codesc": "22640",
+        "nome": "EE Orminda Guimarães Cotrim",
+        "municipio": "PITANGUEIRAS",
+        "valor": 26.0,
+        "participantes": 96
+      }
+    ],
+    "participacao_geral": [
+      {
+        "codesc": "22573",
+        "nome": "EE Dona Adélia Frascino",
+        "municipio": "PONTAL",
+        "valor": 98.1,
+        "total_alunos": 52,
+        "total_participantes": 51,
+        "segmentos": [
+          "EF",
+          "AF",
+          "EM"
+        ]
+      },
+      {
+        "codesc": "23985",
+        "nome": "EE Dr. Mário Lins",
+        "municipio": "JARDINÓPOLIS",
+        "valor": 98.1,
+        "total_alunos": 106,
+        "total_participantes": 104,
+        "segmentos": [
+          "EM"
+        ]
+      },
+      {
+        "codesc": "22755",
+        "nome": "EE Maurício Montecchi",
+        "municipio": "PITANGUEIRAS",
+        "valor": 95.9,
+        "total_alunos": 926,
+        "total_participantes": 888,
+        "segmentos": [
+          "EF",
+          "AF",
+          "EM"
+        ]
+      },
+      {
+        "codesc": "22676",
+        "nome": "PEI EE Profª Dolores Belém Novaes",
+        "municipio": "PONTAL",
+        "valor": 95.7,
+        "total_alunos": 536,
+        "total_participantes": 513,
+        "segmentos": [
+          "EF",
+          "AF",
+          "EM"
+        ]
+      },
+      {
+        "codesc": "23607",
+        "nome": "PEI EE Winston Churchill",
+        "municipio": "SERTÃOZINHO",
+        "valor": 95.1,
+        "total_alunos": 367,
+        "total_participantes": 349,
+        "segmentos": [
+          "EM"
+        ]
+      },
+      {
+        "codesc": "915002",
+        "nome": "EE Luiz Marcari",
+        "municipio": "BARRINHA",
+        "valor": 94.8,
+        "total_alunos": 252,
+        "total_participantes": 239,
+        "segmentos": [
+          "EM"
+        ]
+      },
+      {
+        "codesc": "23620",
+        "nome": "PEI EE Dr. Antônio Furlan Júnior",
+        "municipio": "SERTÃOZINHO",
+        "valor": 94.5,
+        "total_alunos": 658,
+        "total_participantes": 622,
+        "segmentos": [
+          "EF",
+          "AF",
+          "EM"
+        ]
+      },
+      {
+        "codesc": "22561",
+        "nome": "EE Profª Josepha Castro",
+        "municipio": "PONTAL",
+        "valor": 94.5,
+        "total_alunos": 606,
+        "total_participantes": 573,
+        "segmentos": [
+          "EF",
+          "AF"
+        ]
+      },
+      {
+        "codesc": "914356",
+        "nome": "EE Prof. Basílio Rodrigues da Silva",
+        "municipio": "PONTAL",
+        "valor": 94.0,
+        "total_alunos": 630,
+        "total_participantes": 592,
+        "segmentos": [
+          "EF",
+          "AF",
+          "EM"
+        ]
+      },
+      {
+        "codesc": "23619",
+        "nome": "PEI EE Prof. José Luiz de Siqueira",
+        "municipio": "BARRINHA",
+        "valor": 93.7,
+        "total_alunos": 680,
+        "total_participantes": 637,
+        "segmentos": [
+          "EM"
+        ]
+      },
+      {
+        "codesc": "22494",
+        "nome": "PEI EE Maria Falconi de Felício",
+        "municipio": "PITANGUEIRAS",
+        "valor": 93.6,
+        "total_alunos": 423,
+        "total_participantes": 396,
+        "segmentos": [
+          "EF",
+          "AF",
+          "EM"
+        ]
+      },
+      {
+        "codesc": "23486",
+        "nome": "EE Dr. Isaías José Ferreira",
+        "municipio": "SERTÃOZINHO",
+        "valor": 93.4,
+        "total_alunos": 717,
+        "total_participantes": 670,
+        "segmentos": [
+          "EF",
+          "AF",
+          "EM"
+        ]
+      },
+      {
+        "codesc": "22664",
+        "nome": "PEI EE Domingos Paro",
+        "municipio": "PITANGUEIRAS",
+        "valor": 92.8,
+        "total_alunos": 293,
+        "total_participantes": 272,
+        "segmentos": [
+          "EF",
+          "AF",
+          "EM"
+        ]
+      },
+      {
+        "codesc": "922717",
+        "nome": "EE Profª Edith Silveira Dalmaso",
+        "municipio": "SERTÃOZINHO",
+        "valor": 91.0,
+        "total_alunos": 1252,
+        "total_participantes": 1140,
+        "segmentos": [
+          "EF",
+          "AF",
+          "EM"
+        ]
+      },
+      {
+        "codesc": "23553",
+        "nome": "EE Prof. Bruno Pieroni",
+        "municipio": "SERTÃOZINHO",
+        "valor": 91.0,
+        "total_alunos": 636,
+        "total_participantes": 579,
+        "segmentos": [
+          "EM"
+        ]
+      },
+      {
+        "codesc": "22640",
+        "nome": "EE Orminda Guimarães Cotrim",
+        "municipio": "PITANGUEIRAS",
+        "valor": 90.2,
+        "total_alunos": 877,
+        "total_participantes": 791,
+        "segmentos": [
+          "EF",
+          "AF",
+          "EM"
+        ]
+      },
+      {
+        "codesc": "22559",
+        "nome": "EE Profª Dolores Martins de Castro",
+        "municipio": "PONTAL",
+        "valor": 90.2,
+        "total_alunos": 174,
+        "total_participantes": 157,
+        "segmentos": [
+          "EF",
+          "AF",
+          "EM"
+        ]
+      },
+      {
+        "codesc": "923023",
+        "nome": "EE Profª Nícia Fabíola Zanutto Giraldi",
+        "municipio": "SERTÃOZINHO",
+        "valor": 90.1,
+        "total_alunos": 905,
+        "total_participantes": 815,
+        "segmentos": [
+          "EF",
+          "AF",
+          "EM"
+        ]
+      },
+      {
+        "codesc": "905847",
+        "nome": "EE Ferrucio Chiaratti",
+        "municipio": "SERTÃOZINHO",
+        "valor": 89.1,
+        "total_alunos": 1038,
+        "total_participantes": 925,
+        "segmentos": [
+          "EF",
+          "AF",
+          "EM"
+        ]
+      },
+      {
+        "codesc": "22585",
+        "nome": "EE Odulfo de Oliveira Guimarães",
+        "municipio": "VIRADOURO",
+        "valor": 89.0,
+        "total_alunos": 629,
+        "total_participantes": 560,
+        "segmentos": [
+          "EF",
+          "AF",
+          "EM"
+        ]
+      },
+      {
+        "codesc": "127875",
+        "nome": "EE Profª Yolanda Luiz Sichieri",
+        "municipio": "PONTAL",
+        "valor": 89.0,
+        "total_alunos": 601,
+        "total_participantes": 535,
+        "segmentos": [
+          "EM"
+        ]
+      },
+      {
+        "codesc": "44635",
+        "nome": "PEI EE Profª Maria Conceição R. Silva Magon",
+        "municipio": "SERTÃOZINHO",
+        "valor": 88.5,
+        "total_alunos": 252,
+        "total_participantes": 223,
+        "segmentos": [
+          "EF",
+          "AF",
+          "EM"
+        ]
+      },
+      {
+        "codesc": "23528",
+        "nome": "PEI EE Prof. Nestor Gomes de Araújo",
+        "municipio": "DUMONT",
+        "valor": 88.0,
+        "total_alunos": 292,
+        "total_participantes": 257,
+        "segmentos": [
+          "EM"
+        ]
+      },
+      {
+        "codesc": "22639",
+        "nome": "PEI EE Profª Maria Élyde Mônaco dos Santos",
+        "municipio": "TERRA ROXA",
+        "valor": 87.7,
+        "total_alunos": 228,
+        "total_participantes": 200,
+        "segmentos": [
+          "EM"
+        ]
+      },
+      {
+        "codesc": "49585",
+        "nome": "EE Anna Passamonti Balardin",
+        "municipio": "SERTÃOZINHO",
+        "valor": 87.4,
+        "total_alunos": 1013,
+        "total_participantes": 885,
+        "segmentos": [
+          "EF",
+          "AF",
+          "EM"
+        ]
+      },
+      {
+        "codesc": "24144",
+        "nome": "EE Prof. Plínio Berardo",
+        "municipio": "JARDINÓPOLIS",
+        "valor": 82.5,
+        "total_alunos": 992,
+        "total_participantes": 818,
+        "segmentos": [
+          "EM"
+        ]
+      }
+    ]
+  },
+  "municipalities": {
+    "PONTAL": {
+      "municipio": "PONTAL",
+      "num_escolas": 6,
+      "escolas": [
+        {
+          "codesc": "22573",
+          "nome": "EE Dona Adélia Frascino"
+        },
+        {
+          "codesc": "914356",
+          "nome": "EE Prof. Basílio Rodrigues da Silva"
+        },
+        {
+          "codesc": "22676",
+          "nome": "PEI EE Profª Dolores Belém Novaes"
+        },
+        {
+          "codesc": "22559",
+          "nome": "EE Profª Dolores Martins de Castro"
+        },
+        {
+          "codesc": "22561",
+          "nome": "EE Profª Josepha Castro"
+        },
+        {
+          "codesc": "127875",
+          "nome": "EE Profª Yolanda Luiz Sichieri"
+        }
+      ],
+      "total_alunos_ef": 270,
+      "total_alunos_af": 1158,
+      "total_alunos_em": 1171,
+      "total_alunos": 2599,
+      "avg_profic_lp": 265.58,
+      "avg_profic_mat": 315.26
+    },
+    "PITANGUEIRAS": {
+      "municipio": "PITANGUEIRAS",
+      "num_escolas": 4,
+      "escolas": [
+        {
+          "codesc": "22664",
+          "nome": "PEI EE Domingos Paro"
+        },
+        {
+          "codesc": "22494",
+          "nome": "PEI EE Maria Falconi de Felício"
+        },
+        {
+          "codesc": "22755",
+          "nome": "EE Maurício Montecchi"
+        },
+        {
+          "codesc": "22640",
+          "nome": "EE Orminda Guimarães Cotrim"
+        }
+      ],
+      "total_alunos_ef": 300,
+      "total_alunos_af": 1206,
+      "total_alunos_em": 1013,
+      "total_alunos": 2519,
+      "avg_profic_lp": 256.61,
+      "avg_profic_mat": 287.61
+    },
+    "SERTÃOZINHO": {
+      "municipio": "SERTÃOZINHO",
+      "num_escolas": 9,
+      "escolas": [
+        {
+          "codesc": "49585",
+          "nome": "EE Anna Passamonti Balardin"
+        },
+        {
+          "codesc": "23620",
+          "nome": "PEI EE Dr. Antônio Furlan Júnior"
+        },
+        {
+          "codesc": "23486",
+          "nome": "EE Dr. Isaías José Ferreira"
+        },
+        {
+          "codesc": "905847",
+          "nome": "EE Ferrucio Chiaratti"
+        },
+        {
+          "codesc": "922717",
+          "nome": "EE Profª Edith Silveira Dalmaso"
+        },
+        {
+          "codesc": "44635",
+          "nome": "PEI EE Profª Maria Conceição R. Silva Magon"
+        },
+        {
+          "codesc": "923023",
+          "nome": "EE Profª Nícia Fabíola Zanutto Giraldi"
+        },
+        {
+          "codesc": "23553",
+          "nome": "EE Prof. Bruno Pieroni"
+        },
+        {
+          "codesc": "23607",
+          "nome": "PEI EE Winston Churchill"
+        }
+      ],
+      "total_alunos_ef": 784,
+      "total_alunos_af": 2805,
+      "total_alunos_em": 3249,
+      "total_alunos": 6838,
+      "avg_profic_lp": 253.97,
+      "avg_profic_mat": 286.08
+    },
+    "VIRADOURO": {
+      "municipio": "VIRADOURO",
+      "num_escolas": 1,
+      "escolas": [
+        {
+          "codesc": "22585",
+          "nome": "EE Odulfo de Oliveira Guimarães"
+        }
+      ],
+      "total_alunos_ef": 51,
+      "total_alunos_af": 209,
+      "total_alunos_em": 369,
+      "total_alunos": 629,
+      "avg_profic_lp": 248.55,
+      "avg_profic_mat": 295.48
+    },
+    "JARDINÓPOLIS": {
+      "municipio": "JARDINÓPOLIS",
+      "num_escolas": 2,
+      "escolas": [
+        {
+          "codesc": "23985",
+          "nome": "EE Dr. Mário Lins"
+        },
+        {
+          "codesc": "24144",
+          "nome": "EE Prof. Plínio Berardo"
+        }
+      ],
+      "total_alunos_ef": 0,
+      "total_alunos_af": 0,
+      "total_alunos_em": 1098,
+      "total_alunos": 1098,
+      "avg_profic_lp": null,
+      "avg_profic_mat": null
+    },
+    "BARRINHA": {
+      "municipio": "BARRINHA",
+      "num_escolas": 2,
+      "escolas": [
+        {
+          "codesc": "915002",
+          "nome": "EE Luiz Marcari"
+        },
+        {
+          "codesc": "23619",
+          "nome": "PEI EE Prof. José Luiz de Siqueira"
+        }
+      ],
+      "total_alunos_ef": 0,
+      "total_alunos_af": 0,
+      "total_alunos_em": 932,
+      "total_alunos": 932,
+      "avg_profic_lp": null,
+      "avg_profic_mat": null
+    },
+    "TERRA ROXA": {
+      "municipio": "TERRA ROXA",
+      "num_escolas": 1,
+      "escolas": [
+        {
+          "codesc": "22639",
+          "nome": "PEI EE Profª Maria Élyde Mônaco dos Santos"
+        }
+      ],
+      "total_alunos_ef": 0,
+      "total_alunos_af": 0,
+      "total_alunos_em": 228,
+      "total_alunos": 228,
+      "avg_profic_lp": null,
+      "avg_profic_mat": null
+    },
+    "DUMONT": {
+      "municipio": "DUMONT",
+      "num_escolas": 1,
+      "escolas": [
+        {
+          "codesc": "23528",
+          "nome": "PEI EE Prof. Nestor Gomes de Araújo"
+        }
+      ],
+      "total_alunos_ef": 0,
+      "total_alunos_af": 0,
+      "total_alunos_em": 292,
+      "total_alunos": 292,
+      "avg_profic_lp": null,
+      "avg_profic_mat": null
+    }
+  },
+  "summary_text": "SARESP 2025 - Análise de 26 Escolas Estaduais\nDiretoria de Ensino - Região de Sertãozinho\nMunicípios: BARRINHA, DUMONT, JARDINÓPOLIS, PITANGUEIRAS, PONTAL, SERTÃOZINHO, TERRA ROXA, VIRADOURO\n\n=== EE Dona Adélia Frascino (PONTAL) - CODESC 22573 ===\n  ENSINO FUNDAMENTAL: 6 alunos matriculados\n    Língua Portuguesa: média=323.92, mediana=318.9\n      Níveis: Avançado=2, Adequado=4, Básico=0, Abaixo do Básico=0\n      % Adequado+Avançado: 100.0%\n    Matemática: média=364.4, mediana=364.65\n      Níveis: Avançado=5, Adequado=1, Básico=0, Abaixo do Básico=0\n      % Adequado+Avançado: 100.0%\n    Participação LP: 100.0%, MAT: 100.0%\n    9º Ano EF: 6 alunos, LP média=323.92, MAT média=364.4\n  ANOS FINAIS: 32 alunos, participação ambos os dias: 100.0%\n    6º Ano EF: 9 alunos, participação: 100.0%\n    7º Ano EF: 9 alunos, participação: 100.0%\n    8º Ano EF: 8 alunos, participação: 100.0%\n    9º Ano EF: 6 alunos, participação: 100.0%\n  ENSINO MÉDIO: 14 alunos, participação ambas as provas: 92.9%\n    EM-1ª série: 7 alunos, participação: 100.0%\n    EM-2ª série: 5 alunos, participação: 80.0%\n    EM-3ª série: 2 alunos, participação: 100.0%\n\n=== PEI EE Domingos Paro (PITANGUEIRAS) - CODESC 22664 ===\n  ENSINO FUNDAMENTAL: 37 alunos matriculados\n    Língua Portuguesa: média=263.88, mediana=271.35\n      Níveis: Avançado=2, Adequado=14, Básico=15, Abaixo do Básico=5\n      % Adequado+Avançado: 44.4%\n    Matemática: média=316.86, mediana=333.45\n      Níveis: Avançado=11, Adequado=15, Básico=7, Abaixo do Básico=3\n      % Adequado+Avançado: 72.2%\n    Participação LP: 97.3%, MAT: 97.3%\n    9º Ano EF: 37 alunos, LP média=263.88, MAT média=316.86\n  ANOS FINAIS: 164 alunos, participação ambos os dias: 95.1%\n    6º Ano EF: 43 alunos, participação: 95.3%\n    7º Ano EF: 37 alunos, participação: 100.0%\n    8º Ano EF: 47 alunos, participação: 93.6%\n    9º Ano EF: 37 alunos, participação: 91.9%\n  ENSINO MÉDIO: 92 alunos, participação ambas as provas: 87.0%\n    EM-1ª série: 35 alunos, participação: 85.7%\n    EM-2ª série: 24 alunos, participação: 91.7%\n    EM-3ª série: 33 alunos, participação: 84.9%\n\n=== PEI EE Maria Falconi de Felício (PITANGUEIRAS) - CODESC 22494 ===\n  ENSINO FUNDAMENTAL: 52 alunos matriculados\n    Língua Portuguesa: média=251.9, mediana=261.7\n      Níveis: Avançado=4, Adequado=11, Básico=28, Abaixo do Básico=8\n      % Adequado+Avançado: 29.4%\n    Matemática: média=308.94, mediana=317.6\n      Níveis: Avançado=17, Adequado=14, Básico=15, Abaixo do Básico=5\n      % Adequado+Avançado: 60.8%\n    Participação LP: 98.1%, MAT: 98.1%\n    9º Ano EF: 52 alunos, LP média=251.9, MAT média=308.94\n  ANOS FINAIS: 241 alunos, participação ambos os dias: 94.6%\n    6º Ano EF: 75 alunos, participação: 97.3%\n    7º Ano EF: 61 alunos, participação: 88.5%\n    8º Ano EF: 53 alunos, participação: 96.2%\n    9º Ano EF: 52 alunos, participação: 96.2%\n  ENSINO MÉDIO: 130 alunos, participação ambas as provas: 90.0%\n    EM-1ª série: 76 alunos, participação: 85.5%\n    EM-2ª série: 35 alunos, participação: 94.3%\n    EM-3ª série: 19 alunos, participação: 100.0%\n\n=== EE Maurício Montecchi (PITANGUEIRAS) - CODESC 22755 ===\n  ENSINO FUNDAMENTAL: 110 alunos matriculados\n    Língua Portuguesa: média=258.62, mediana=259.75\n      Níveis: Avançado=7, Adequado=31, Básico=62, Abaixo do Básico=10\n      % Adequado+Avançado: 34.5%\n    Matemática: média=285.74, mediana=285.7\n      Níveis: Avançado=19, Adequado=26, Básico=44, Abaixo do Básico=21\n      % Adequado+Avançado: 40.9%\n    Participação LP: 100.0%, MAT: 100.0%\n    9º Ano EF: 110 alunos, LP média=258.62, MAT média=285.74\n  ANOS FINAIS: 433 alunos, participação ambos os dias: 98.4%\n    6º Ano EF: 107 alunos, participação: 97.2%\n    7º Ano EF: 109 alunos, participação: 96.3%\n    8º Ano EF: 107 alunos, participação: 100.0%\n    9º Ano EF: 110 alunos, participação: 100.0%\n  ENSINO MÉDIO: 383 alunos, participação ambas as provas: 91.9%\n    EM-1ª série: 124 alunos, participação: 93.5%\n    EM-2ª série: 134 alunos, participação: 87.3%\n    EM-3ª série: 125 alunos, participação: 95.2%\n\n=== EE Orminda Guimarães Cotrim (PITANGUEIRAS) - CODESC 22640 ===\n  ENSINO FUNDAMENTAL: 101 alunos matriculados\n    Língua Portuguesa: média=254.09, mediana=255.45\n      Níveis: Avançado=8, Adequado=28, Básico=46, Abaixo do Básico=14\n      % Adequado+Avançado: 37.5%\n    Matemática: média=267.46, mediana=265.6\n      Níveis: Avançado=3, Adequado=22, Básico=51, Abaixo do Básico=20\n      % Adequado+Avançado: 26.0%\n    Participação LP: 95.0%, MAT: 95.0%\n    9º Ano EF: 101 alunos, LP média=254.09, MAT média=267.46\n  ANOS FINAIS: 368 alunos, participação ambos os dias: 90.0%\n    6º Ano EF: 93 alunos, participação: 88.2%\n    7º Ano EF: 71 alunos, participação: 90.1%\n    8º Ano EF: 103 alunos, participação: 88.3%\n    9º Ano EF: 101 alunos, participação: 93.1%\n  ENSINO MÉDIO: 408 alunos, participação ambas as provas: 89.2%\n    EM-1ª série: 162 alunos, participação: 86.4%\n    EM-2ª série: 116 alunos, participação: 85.3%\n    EM-3ª série: 130 alunos, participação: 96.2%\n\n=== EE Prof. Basílio Rodrigues da Silva (PONTAL) - CODESC 914356 ===\n  ENSINO FUNDAMENTAL: 68 alunos matriculados\n    Língua Portuguesa: média=277.7, mediana=282.0\n      Níveis: Avançado=12, Adequado=25, Básico=25, Abaixo do Básico=4\n      % Adequado+Avançado: 56.1%\n    Matemática: média=322.94, mediana=334.95\n      Níveis: Avançado=22, Adequado=30, Básico=9, Abaixo do Básico=5\n      % Adequado+Avançado: 78.8%\n    Participação LP: 97.1%, MAT: 97.1%\n    9º Ano EF: 68 alunos, LP média=277.7, MAT média=322.94\n  ANOS FINAIS: 257 alunos, participação ambos os dias: 96.5%\n    6º Ano EF: 63 alunos, participação: 95.2%\n    7º Ano EF: 62 alunos, participação: 98.4%\n    8º Ano EF: 64 alunos, participação: 95.3%\n    9º Ano EF: 68 alunos, participação: 97.1%\n  ENSINO MÉDIO: 305 alunos, participação ambas as provas: 91.1%\n    EM-1ª série: 120 alunos, participação: 90.8%\n    EM-2ª série: 81 alunos, participação: 91.4%\n    EM-3ª série: 104 alunos, participação: 91.3%\n\n=== PEI EE Profª Dolores Belém Novaes (PONTAL) - CODESC 22676 ===\n  ENSINO FUNDAMENTAL: 60 alunos matriculados\n    Língua Portuguesa: média=272.47, mediana=275.4\n      Níveis: Avançado=7, Adequado=23, Básico=22, Abaixo do Básico=7\n      % Adequado+Avançado: 50.8%\n    Matemática: média=333.78, mediana=349.1\n      Níveis: Avançado=27, Adequado=22, Básico=7, Abaixo do Básico=3\n      % Adequado+Avançado: 83.1%\n    Participação LP: 98.3%, MAT: 98.3%\n    9º Ano EF: 60 alunos, LP média=272.47, MAT média=333.78\n  ANOS FINAIS: 269 alunos, participação ambos os dias: 97.4%\n    6º Ano EF: 70 alunos, participação: 100.0%\n    7º Ano EF: 72 alunos, participação: 97.2%\n    8º Ano EF: 67 alunos, participação: 94.0%\n    9º Ano EF: 60 alunos, participação: 98.3%\n  ENSINO MÉDIO: 207 alunos, participação ambas as provas: 92.8%\n    EM-1ª série: 105 alunos, participação: 91.4%\n    EM-2ª série: 74 alunos, participação: 94.6%\n    EM-3ª série: 28 alunos, participação: 92.9%\n\n=== EE Profª Dolores Martins de Castro (PONTAL) - CODESC 22559 ===\n  ENSINO FUNDAMENTAL: 30 alunos matriculados\n    Língua Portuguesa: média=270.57, mediana=275.05\n      Níveis: Avançado=1, Adequado=12, Básico=10, Abaixo do Básico=3\n      % Adequado+Avançado: 50.0%\n    Matemática: média=319.52, mediana=329.05\n      Níveis: Avançado=6, Adequado=13, Básico=5, Abaixo do Básico=2\n      % Adequado+Avançado: 73.1%\n    Participação LP: 86.7%, MAT: 86.7%\n    9º Ano EF: 30 alunos, LP média=270.57, MAT média=319.52\n  ANOS FINAIS: 100 alunos, participação ambos os dias: 94.0%\n    6º Ano EF: 24 alunos, participação: 100.0%\n    7º Ano EF: 20 alunos, participação: 95.0%\n    8º Ano EF: 26 alunos, participação: 96.2%\n    9º Ano EF: 30 alunos, participação: 86.7%\n  ENSINO MÉDIO: 44 alunos, participação ambas as provas: 84.1%\n    EM-1ª série: 14 alunos, participação: 100.0%\n    EM-2ª série: 21 alunos, participação: 66.7%\n    EM-3ª série: 9 alunos, participação: 100.0%\n\n=== EE Anna Passamonti Balardin (SERTÃOZINHO) - CODESC 49585 ===\n  ENSINO FUNDAMENTAL: 69 alunos matriculados\n    Língua Portuguesa: média=267.33, mediana=277.6\n      Níveis: Avançado=5, Adequado=28, Básico=22, Abaixo do Básico=8\n      % Adequado+Avançado: 52.4%\n    Matemática: média=295.11, mediana=288.5\n      Níveis: Avançado=15, Adequado=14, Básico=26, Abaixo do Básico=8\n      % Adequado+Avançado: 46.0%\n    Participação LP: 91.3%, MAT: 91.3%\n    9º Ano EF: 69 alunos, LP média=267.33, MAT média=295.11\n  ANOS FINAIS: 329 alunos, participação ambos os dias: 94.5%\n    6º Ano EF: 69 alunos, participação: 97.1%\n    7º Ano EF: 86 alunos, participação: 96.5%\n    8º Ano EF: 105 alunos, participação: 93.3%\n    9º Ano EF: 69 alunos, participação: 91.3%\n  ENSINO MÉDIO: 615 alunos, participação ambas as provas: 83.1%\n    EM-1ª série: 190 alunos, participação: 79.0%\n    EM-2ª série: 211 alunos, participação: 85.3%\n    EM-3ª série: 214 alunos, participação: 84.6%\n\n=== PEI EE Dr. Antônio Furlan Júnior (SERTÃOZINHO) - CODESC 23620 ===\n  ENSINO FUNDAMENTAL: 132 alunos matriculados\n    Língua Portuguesa: média=251.25, mediana=254.6\n      Níveis: Avançado=12, Adequado=30, Básico=67, Abaixo do Básico=20\n      % Adequado+Avançado: 32.6%\n    Matemática: média=272.09, mediana=266.3\n      Níveis: Avançado=12, Adequado=23, Básico=68, Abaixo do Básico=26\n      % Adequado+Avançado: 27.1%\n    Participação LP: 97.7%, MAT: 97.7%\n    9º Ano EF: 132 alunos, LP média=251.25, MAT média=272.09\n  ANOS FINAIS: 445 alunos, participação ambos os dias: 93.5%\n    6º Ano EF: 142 alunos, participação: 88.0%\n    7º Ano EF: 96 alunos, participação: 95.8%\n    8º Ano EF: 75 alunos, participação: 96.0%\n    9º Ano EF: 132 alunos, participação: 96.2%\n  ENSINO MÉDIO: 81 alunos, participação ambas as provas: 95.1%\n    EM-2ª série: 45 alunos, participação: 93.3%\n    EM-3ª série: 36 alunos, participação: 97.2%\n\n=== EE Dr. Isaías José Ferreira (SERTÃOZINHO) - CODESC 23486 ===\n  ENSINO FUNDAMENTAL: 104 alunos matriculados\n    Língua Portuguesa: média=250.54, mediana=248.1\n      Níveis: Avançado=7, Adequado=23, Básico=50, Abaixo do Básico=15\n      % Adequado+Avançado: 31.6%\n    Matemática: média=267.39, mediana=260.1\n      Níveis: Avançado=9, Adequado=17, Básico=44, Abaixo do Básico=25\n      % Adequado+Avançado: 27.4%\n    Participação LP: 91.3%, MAT: 91.3%\n    9º Ano EF: 104 alunos, LP média=250.54, MAT média=267.39\n  ANOS FINAIS: 387 alunos, participação ambos os dias: 92.8%\n    6º Ano EF: 99 alunos, participação: 89.9%\n    7º Ano EF: 87 alunos, participação: 94.2%\n    8º Ano EF: 97 alunos, participação: 95.9%\n    9º Ano EF: 104 alunos, participação: 91.3%\n  ENSINO MÉDIO: 226 alunos, participação ambas as provas: 95.6%\n    EM-1ª série: 87 alunos, participação: 93.1%\n    EM-2ª série: 73 alunos, participação: 97.3%\n    EM-3ª série: 66 alunos, participação: 97.0%\n\n=== EE Ferrucio Chiaratti (SERTÃOZINHO) - CODESC 905847 ===\n  ENSINO FUNDAMENTAL: 136 alunos matriculados\n    Língua Portuguesa: média=238.31, mediana=236.0\n      Níveis: Avançado=3, Adequado=28, Básico=65, Abaixo do Básico=28\n      % Adequado+Avançado: 25.0%\n    Matemática: média=265.51, mediana=258.25\n      Níveis: Avançado=9, Adequado=28, Básico=52, Abaixo do Básico=35\n      % Adequado+Avançado: 29.8%\n    Participação LP: 91.2%, MAT: 91.2%\n    9º Ano EF: 136 alunos, LP média=238.31, MAT média=265.51\n  ANOS FINAIS: 480 alunos, participação ambos os dias: 87.9%\n    6º Ano EF: 100 alunos, participação: 88.0%\n    7º Ano EF: 115 alunos, participação: 92.2%\n    8º Ano EF: 129 alunos, participação: 85.3%\n    9º Ano EF: 136 alunos, participação: 86.8%\n  ENSINO MÉDIO: 422 alunos, participação ambas as provas: 89.8%\n    EM-1ª série: 129 alunos, participação: 89.9%\n    EM-2ª série: 170 alunos, participação: 88.8%\n    EM-3ª série: 123 alunos, participação: 91.1%\n\n=== EE Profª Edith Silveira Dalmaso (SERTÃOZINHO) - CODESC 922717 ===\n  ENSINO FUNDAMENTAL: 175 alunos matriculados\n    Língua Portuguesa: média=252.72, mediana=255.4\n      Níveis: Avançado=11, Adequado=49, Básico=86, Abaixo do Básico=27\n      % Adequado+Avançado: 34.7%\n    Matemática: média=321.49, mediana=334.4\n      Níveis: Avançado=68, Adequado=50, Básico=45, Abaixo do Básico=10\n      % Adequado+Avançado: 68.2%\n    Participação LP: 98.9%, MAT: 98.9%\n    9º Ano EF: 175 alunos, LP média=252.72, MAT média=321.49\n  ANOS FINAIS: 545 alunos, participação ambos os dias: 98.2%\n    6º Ano EF: 85 alunos, participação: 98.8%\n    7º Ano EF: 133 alunos, participação: 98.5%\n    8º Ano EF: 152 alunos, participação: 96.7%\n    9º Ano EF: 175 alunos, participação: 98.9%\n  ENSINO MÉDIO: 532 alunos, participação ambas as provas: 81.2%\n    EM-1ª série: 237 alunos, participação: 81.0%\n    EM-2ª série: 156 alunos, participação: 80.8%\n    EM-3ª série: 139 alunos, participação: 82.0%\n\n=== PEI EE Profª Maria Conceição R. Silva Magon (SERTÃOZINHO) - CODESC 44635 ===\n  ENSINO FUNDAMENTAL: 31 alunos matriculados\n    Língua Portuguesa: média=251.29, mediana=251.9\n      Níveis: Avançado=1, Adequado=8, Básico=15, Abaixo do Básico=3\n      % Adequado+Avançado: 33.3%\n    Matemática: média=289.64, mediana=302.2\n      Níveis: Avançado=5, Adequado=9, Básico=6, Abaixo do Básico=7\n      % Adequado+Avançado: 51.9%\n    Participação LP: 87.1%, MAT: 87.1%\n    9º Ano EF: 31 alunos, LP média=251.29, MAT média=289.64\n  ANOS FINAIS: 128 alunos, participação ambos os dias: 89.1%\n    6º Ano EF: 29 alunos, participação: 86.2%\n    7º Ano EF: 26 alunos, participação: 92.3%\n    8º Ano EF: 42 alunos, participação: 90.5%\n    9º Ano EF: 31 alunos, participação: 87.1%\n  ENSINO MÉDIO: 93 alunos, participação ambas as provas: 88.2%\n    EM-1ª série: 29 alunos, participação: 86.2%\n    EM-2ª série: 22 alunos, participação: 95.5%\n    EM-3ª série: 42 alunos, participação: 85.7%\n\n=== EE Profª Nícia Fabíola Zanutto Giraldi (SERTÃOZINHO) - CODESC 923023 ===\n  ENSINO FUNDAMENTAL: 137 alunos matriculados\n    Língua Portuguesa: média=269.96, mediana=276.1\n      Níveis: Avançado=14, Adequado=53, Básico=52, Abaixo do Básico=10\n      % Adequado+Avançado: 51.9%\n    Matemática: média=280.99, mediana=286.3\n      Níveis: Avançado=15, Adequado=39, Básico=51, Abaixo do Básico=24\n      % Adequado+Avançado: 41.9%\n    Participação LP: 94.2%, MAT: 94.2%\n    9º Ano EF: 137 alunos, LP média=269.96, MAT média=280.99\n  ANOS FINAIS: 491 alunos, participação ambos os dias: 90.6%\n    6º Ano EF: 103 alunos, participação: 87.4%\n    7º Ano EF: 143 alunos, participação: 92.3%\n    8º Ano EF: 108 alunos, participação: 88.9%\n    9º Ano EF: 137 alunos, participação: 92.7%\n  ENSINO MÉDIO: 277 alunos, participação ambas as provas: 87.0%\n    EM-1ª série: 113 alunos, participação: 89.4%\n    EM-2ª série: 102 alunos, participação: 86.3%\n    EM-3ª série: 62 alunos, participação: 83.9%\n\n=== EE Odulfo de Oliveira Guimarães (VIRADOURO) - CODESC 22585 ===\n  ENSINO FUNDAMENTAL: 51 alunos matriculados\n    Língua Portuguesa: média=248.55, mediana=246.9\n      Níveis: Avançado=6, Adequado=10, Básico=20, Abaixo do Básico=12\n      % Adequado+Avançado: 33.3%\n    Matemática: média=295.48, mediana=321.65\n      Níveis: Avançado=13, Adequado=13, Básico=13, Abaixo do Básico=9\n      % Adequado+Avançado: 54.2%\n    Participação LP: 94.1%, MAT: 94.1%\n    9º Ano EF: 51 alunos, LP média=248.55, MAT média=295.48\n  ANOS FINAIS: 209 alunos, participação ambos os dias: 95.2%\n    6º Ano EF: 51 alunos, participação: 96.1%\n    7º Ano EF: 53 alunos, participação: 98.1%\n    8º Ano EF: 54 alunos, participação: 92.6%\n    9º Ano EF: 51 alunos, participação: 94.1%\n  ENSINO MÉDIO: 369 alunos, participação ambas as provas: 84.8%\n    EM-1ª série: 142 alunos, participação: 85.2%\n    EM-2ª série: 126 alunos, participação: 83.3%\n    EM-3ª série: 101 alunos, participação: 86.1%\n\n=== EE Profª Josepha Castro (PONTAL) - CODESC 22561 ===\n  ENSINO FUNDAMENTAL: 106 alunos matriculados\n    Língua Portuguesa: média=249.05, mediana=244.3\n      Níveis: Avançado=12, Adequado=24, Básico=45, Abaixo do Básico=21\n      % Adequado+Avançado: 35.3%\n    Matemática: média=295.59, mediana=304.4\n      Níveis: Avançado=21, Adequado=30, Básico=34, Abaixo do Básico=17\n      % Adequado+Avançado: 50.0%\n    Participação LP: 96.2%, MAT: 96.2%\n    9º Ano EF: 106 alunos, LP média=249.05, MAT média=295.59\n  ANOS FINAIS: 500 alunos, participação ambos os dias: 94.2%\n    6º Ano EF: 98 alunos, participação: 95.9%\n    7º Ano EF: 137 alunos, participação: 94.2%\n    8º Ano EF: 159 alunos, participação: 91.8%\n    9º Ano EF: 106 alunos, participação: 96.2%\n\n=== EE Prof. Bruno Pieroni (SERTÃOZINHO) - CODESC 23553 ===\n  ENSINO MÉDIO: 636 alunos, participação ambas as provas: 91.0%\n    EM-1ª série: 255 alunos, participação: 89.8%\n    EM-2ª série: 187 alunos, participação: 94.1%\n    EM-3ª série: 194 alunos, participação: 89.7%\n\n=== PEI EE Winston Churchill (SERTÃOZINHO) - CODESC 23607 ===\n  ENSINO MÉDIO: 367 alunos, participação ambas as provas: 95.1%\n    EM-1ª série: 158 alunos, participação: 91.8%\n    EM-2ª série: 102 alunos, participação: 98.0%\n    EM-3ª série: 107 alunos, participação: 97.2%\n\n=== EE Dr. Mário Lins (JARDINÓPOLIS) - CODESC 23985 ===\n  ENSINO MÉDIO: 106 alunos, participação ambas as provas: 98.1%\n    EM-1ª série: 33 alunos, participação: 97.0%\n    EM-2ª série: 37 alunos, participação: 97.3%\n    EM-3ª série: 36 alunos, participação: 100.0%\n\n=== EE Luiz Marcari (BARRINHA) - CODESC 915002 ===\n  ENSINO MÉDIO: 252 alunos, participação ambas as provas: 94.8%\n    EM-1ª série: 44 alunos, participação: 90.9%\n    EM-2ª série: 76 alunos, participação: 90.8%\n    EM-3ª série: 132 alunos, participação: 98.5%\n\n=== PEI EE Profª Maria Élyde Mônaco dos Santos (TERRA ROXA) - CODESC 22639 ===\n  ENSINO MÉDIO: 228 alunos, participação ambas as provas: 87.7%\n    EM-1ª série: 96 alunos, participação: 87.5%\n    EM-2ª série: 67 alunos, participação: 92.5%\n    EM-3ª série: 65 alunos, participação: 83.1%\n\n=== PEI EE Prof. Nestor Gomes de Araújo (DUMONT) - CODESC 23528 ===\n  ENSINO MÉDIO: 292 alunos, participação ambas as provas: 88.0%\n    EM-1ª série: 99 alunos, participação: 87.9%\n    EM-2ª série: 115 alunos, participação: 89.6%\n    EM-3ª série: 78 alunos, participação: 85.9%\n\n=== EE Prof. Plínio Berardo (JARDINÓPOLIS) - CODESC 24144 ===\n  ENSINO MÉDIO: 992 alunos, participação ambas as provas: 82.5%\n    EM-1ª série: 409 alunos, participação: 81.2%\n    EM-2ª série: 342 alunos, participação: 80.7%\n    EM-3ª série: 241 alunos, participação: 87.1%\n\n=== EE Profª Yolanda Luiz Sichieri (PONTAL) - CODESC 127875 ===\n  ENSINO MÉDIO: 601 alunos, participação ambas as provas: 89.0%\n    EM-1ª série: 187 alunos, participação: 89.8%\n    EM-2ª série: 256 alunos, participação: 89.1%\n    EM-3ª série: 158 alunos, participação: 88.0%\n\n=== PEI EE Prof. José Luiz de Siqueira (BARRINHA) - CODESC 23619 ===\n  ENSINO MÉDIO: 680 alunos, participação ambas as provas: 93.7%\n    EM-1ª série: 287 alunos, participação: 91.3%\n    EM-2ª série: 216 alunos, participação: 95.8%\n    EM-3ª série: 177 alunos, participação: 94.9%\n\n=== RANKINGS ===\n\nPROFICIÊNCIA LÍNGUA PORTUGUESA (média):\n  1º EE Dona Adélia Frascino (PONTAL): 323.92\n  2º EE Prof. Basílio Rodrigues da Silva (PONTAL): 277.7\n  3º PEI EE Profª Dolores Belém Novaes (PONTAL): 272.47\n  4º EE Profª Dolores Martins de Castro (PONTAL): 270.57\n  5º EE Profª Nícia Fabíola Zanutto Giraldi (SERTÃOZINHO): 269.96\n  6º EE Anna Passamonti Balardin (SERTÃOZINHO): 267.33\n  7º PEI EE Domingos Paro (PITANGUEIRAS): 263.88\n  8º EE Maurício Montecchi (PITANGUEIRAS): 258.62\n  9º EE Orminda Guimarães Cotrim (PITANGUEIRAS): 254.09\n  10º EE Profª Edith Silveira Dalmaso (SERTÃOZINHO): 252.72\n  11º PEI EE Maria Falconi de Felício (PITANGUEIRAS): 251.9\n  12º PEI EE Profª Maria Conceição R. Silva Magon (SERTÃOZINHO): 251.29\n  13º PEI EE Dr. Antônio Furlan Júnior (SERTÃOZINHO): 251.25\n  14º EE Dr. Isaías José Ferreira (SERTÃOZINHO): 250.54\n  15º EE Profª Josepha Castro (PONTAL): 249.05\n  16º EE Odulfo de Oliveira Guimarães (VIRADOURO): 248.55\n  17º EE Ferrucio Chiaratti (SERTÃOZINHO): 238.31\n\nPROFICIÊNCIA MATEMÁTICA (média):\n  1º EE Dona Adélia Frascino (PONTAL): 364.4\n  2º PEI EE Profª Dolores Belém Novaes (PONTAL): 333.78\n  3º EE Prof. Basílio Rodrigues da Silva (PONTAL): 322.94\n  4º EE Profª Edith Silveira Dalmaso (SERTÃOZINHO): 321.49\n  5º EE Profª Dolores Martins de Castro (PONTAL): 319.52\n  6º PEI EE Domingos Paro (PITANGUEIRAS): 316.86\n  7º PEI EE Maria Falconi de Felício (PITANGUEIRAS): 308.94\n  8º EE Profª Josepha Castro (PONTAL): 295.59\n  9º EE Odulfo de Oliveira Guimarães (VIRADOURO): 295.48\n  10º EE Anna Passamonti Balardin (SERTÃOZINHO): 295.11\n  11º PEI EE Profª Maria Conceição R. Silva Magon (SERTÃOZINHO): 289.64\n  12º EE Maurício Montecchi (PITANGUEIRAS): 285.74\n  13º EE Profª Nícia Fabíola Zanutto Giraldi (SERTÃOZINHO): 280.99\n  14º PEI EE Dr. Antônio Furlan Júnior (SERTÃOZINHO): 272.09\n  15º EE Orminda Guimarães Cotrim (PITANGUEIRAS): 267.46\n  16º EE Dr. Isaías José Ferreira (SERTÃOZINHO): 267.39\n  17º EE Ferrucio Chiaratti (SERTÃOZINHO): 265.51\n\n% ADEQUADO+AVANÇADO LP:\n  1º EE Dona Adélia Frascino (PONTAL): 100.0%\n  2º EE Prof. Basílio Rodrigues da Silva (PONTAL): 56.1%\n  3º EE Anna Passamonti Balardin (SERTÃOZINHO): 52.4%\n  4º EE Profª Nícia Fabíola Zanutto Giraldi (SERTÃOZINHO): 51.9%\n  5º PEI EE Profª Dolores Belém Novaes (PONTAL): 50.8%\n  6º EE Profª Dolores Martins de Castro (PONTAL): 50.0%\n  7º PEI EE Domingos Paro (PITANGUEIRAS): 44.4%\n  8º EE Orminda Guimarães Cotrim (PITANGUEIRAS): 37.5%\n  9º EE Profª Josepha Castro (PONTAL): 35.3%\n  10º EE Profª Edith Silveira Dalmaso (SERTÃOZINHO): 34.7%\n  11º EE Maurício Montecchi (PITANGUEIRAS): 34.5%\n  12º PEI EE Profª Maria Conceição R. Silva Magon (SERTÃOZINHO): 33.3%\n  13º EE Odulfo de Oliveira Guimarães (VIRADOURO): 33.3%\n  14º PEI EE Dr. Antônio Furlan Júnior (SERTÃOZINHO): 32.6%\n  15º EE Dr. Isaías José Ferreira (SERTÃOZINHO): 31.6%\n  16º PEI EE Maria Falconi de Felício (PITANGUEIRAS): 29.4%\n  17º EE Ferrucio Chiaratti (SERTÃOZINHO): 25.0%\n\n% ADEQUADO+AVANÇADO MAT:\n  1º EE Dona Adélia Frascino (PONTAL): 100.0%\n  2º PEI EE Profª Dolores Belém Novaes (PONTAL): 83.1%\n  3º EE Prof. Basílio Rodrigues da Silva (PONTAL): 78.8%\n  4º EE Profª Dolores Martins de Castro (PONTAL): 73.1%\n  5º PEI EE Domingos Paro (PITANGUEIRAS): 72.2%\n  6º EE Profª Edith Silveira Dalmaso (SERTÃOZINHO): 68.2%\n  7º PEI EE Maria Falconi de Felício (PITANGUEIRAS): 60.8%\n  8º EE Odulfo de Oliveira Guimarães (VIRADOURO): 54.2%\n  9º PEI EE Profª Maria Conceição R. Silva Magon (SERTÃOZINHO): 51.9%\n  10º EE Profª Josepha Castro (PONTAL): 50.0%\n  11º EE Anna Passamonti Balardin (SERTÃOZINHO): 46.0%\n  12º EE Profª Nícia Fabíola Zanutto Giraldi (SERTÃOZINHO): 41.9%\n  13º EE Maurício Montecchi (PITANGUEIRAS): 40.9%\n  14º EE Ferrucio Chiaratti (SERTÃOZINHO): 29.8%\n  15º EE Dr. Isaías José Ferreira (SERTÃOZINHO): 27.4%\n  16º PEI EE Dr. Antônio Furlan Júnior (SERTÃOZINHO): 27.1%\n  17º EE Orminda Guimarães Cotrim (PITANGUEIRAS): 26.0%\n\nPARTICIPAÇÃO GERAL:\n  1º EE Dona Adélia Frascino (PONTAL): 98.1% (51/52 alunos, segmentos: EF,AF,EM)\n  2º EE Dr. Mário Lins (JARDINÓPOLIS): 98.1% (104/106 alunos, segmentos: EM)\n  3º EE Maurício Montecchi (PITANGUEIRAS): 95.9% (888/926 alunos, segmentos: EF,AF,EM)\n  4º PEI EE Profª Dolores Belém Novaes (PONTAL): 95.7% (513/536 alunos, segmentos: EF,AF,EM)\n  5º PEI EE Winston Churchill (SERTÃOZINHO): 95.1% (349/367 alunos, segmentos: EM)\n  6º EE Luiz Marcari (BARRINHA): 94.8% (239/252 alunos, segmentos: EM)\n  7º PEI EE Dr. Antônio Furlan Júnior (SERTÃOZINHO): 94.5% (622/658 alunos, segmentos: EF,AF,EM)\n  8º EE Profª Josepha Castro (PONTAL): 94.5% (573/606 alunos, segmentos: EF,AF)\n  9º EE Prof. Basílio Rodrigues da Silva (PONTAL): 94.0% (592/630 alunos, segmentos: EF,AF,EM)\n  10º PEI EE Prof. José Luiz de Siqueira (BARRINHA): 93.7% (637/680 alunos, segmentos: EM)\n  11º PEI EE Maria Falconi de Felício (PITANGUEIRAS): 93.6% (396/423 alunos, segmentos: EF,AF,EM)\n  12º EE Dr. Isaías José Ferreira (SERTÃOZINHO): 93.4% (670/717 alunos, segmentos: EF,AF,EM)\n  13º PEI EE Domingos Paro (PITANGUEIRAS): 92.8% (272/293 alunos, segmentos: EF,AF,EM)\n  14º EE Profª Edith Silveira Dalmaso (SERTÃOZINHO): 91.0% (1140/1252 alunos, segmentos: EF,AF,EM)\n  15º EE Prof. Bruno Pieroni (SERTÃOZINHO): 91.0% (579/636 alunos, segmentos: EM)\n  16º EE Orminda Guimarães Cotrim (PITANGUEIRAS): 90.2% (791/877 alunos, segmentos: EF,AF,EM)\n  17º EE Profª Dolores Martins de Castro (PONTAL): 90.2% (157/174 alunos, segmentos: EF,AF,EM)\n  18º EE Profª Nícia Fabíola Zanutto Giraldi (SERTÃOZINHO): 90.1% (815/905 alunos, segmentos: EF,AF,EM)\n  19º EE Ferrucio Chiaratti (SERTÃOZINHO): 89.1% (925/1038 alunos, segmentos: EF,AF,EM)\n  20º EE Odulfo de Oliveira Guimarães (VIRADOURO): 89.0% (560/629 alunos, segmentos: EF,AF,EM)\n  21º EE Profª Yolanda Luiz Sichieri (PONTAL): 89.0% (535/601 alunos, segmentos: EM)\n  22º PEI EE Profª Maria Conceição R. Silva Magon (SERTÃOZINHO): 88.5% (223/252 alunos, segmentos: EF,AF,EM)\n  23º PEI EE Prof. Nestor Gomes de Araújo (DUMONT): 88.0% (257/292 alunos, segmentos: EM)\n  24º PEI EE Profª Maria Élyde Mônaco dos Santos (TERRA ROXA): 87.7% (200/228 alunos, segmentos: EM)\n  25º EE Anna Passamonti Balardin (SERTÃOZINHO): 87.4% (885/1013 alunos, segmentos: EF,AF,EM)\n  26º EE Prof. Plínio Berardo (JARDINÓPOLIS): 82.5% (818/992 alunos, segmentos: EM)\n\n=== MUNICÍPIOS ===\nPONTAL: 6 escolas, 2599 alunos total\n  Proficiência média LP: 265.58, MAT: 315.26\nPITANGUEIRAS: 4 escolas, 2519 alunos total\n  Proficiência média LP: 256.61, MAT: 287.61\nSERTÃOZINHO: 9 escolas, 6838 alunos total\n  Proficiência média LP: 253.97, MAT: 286.08\nVIRADOURO: 1 escolas, 629 alunos total\n  Proficiência média LP: 248.55, MAT: 295.48\nJARDINÓPOLIS: 2 escolas, 1098 alunos total\nBARRINHA: 2 escolas, 932 alunos total\nTERRA ROXA: 1 escolas, 228 alunos total\nDUMONT: 1 escolas, 292 alunos total"
+}

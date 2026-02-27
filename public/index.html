@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SARESP 2025 - Análise de Escolas Estaduais</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7"></script>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>SARESP 2025</h1>
+      <p class="subtitle">Análise de 26 Escolas Estaduais - DE Sertãozinho</p>
+    </div>
+    <nav id="main-nav">
+      <button class="nav-btn active" data-tab="dashboard">Painel</button>
+      <button class="nav-btn" data-tab="rankings">Rankings</button>
+      <button class="nav-btn" data-tab="school-detail">Escola</button>
+      <button class="nav-btn" data-tab="comparison">Comparação</button>
+      <button class="nav-btn" data-tab="municipality">Municípios</button>
+      <button class="nav-btn" data-tab="chat">Chat IA</button>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- PAINEL -->
+    <section id="tab-dashboard" class="tab-content active">
+      <div class="summary-cards" id="dashboard-cards"></div>
+      <div class="charts-grid">
+        <div class="chart-card">
+          <h3>Proficiência Média por Escola (Língua Portuguesa)</h3>
+          <div class="chart-container"><canvas id="chart-profic-lp"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <h3>Proficiência Média por Escola (Matemática)</h3>
+          <div class="chart-container"><canvas id="chart-profic-mat"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <h3>Distribuição de Níveis - Língua Portuguesa</h3>
+          <div class="chart-container"><canvas id="chart-levels-lp"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <h3>Distribuição de Níveis - Matemática</h3>
+          <div class="chart-container"><canvas id="chart-levels-mat"></canvas></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RANKINGS -->
+    <section id="tab-rankings" class="tab-content">
+      <div class="ranking-controls">
+        <label for="ranking-type">Ranking por:</label>
+        <select id="ranking-type">
+          <option value="proficiencia_lp">Proficiência LP (média)</option>
+          <option value="proficiencia_mat">Proficiência MAT (média)</option>
+          <option value="pct_adequado_avancado_lp">% Adequado+Avançado LP</option>
+          <option value="pct_adequado_avancado_mat">% Adequado+Avançado MAT</option>
+          <option value="participacao_geral">Participação Geral</option>
+        </select>
+      </div>
+      <div id="ranking-table-container"></div>
+      <div class="chart-card" style="margin-top:1.5rem">
+        <h3 id="ranking-chart-title">Ranking</h3>
+        <div class="chart-container chart-container-tall"><canvas id="chart-ranking"></canvas></div>
+      </div>
+    </section>
+
+    <!-- ESCOLA -->
+    <section id="tab-school-detail" class="tab-content">
+      <div class="school-selector">
+        <label for="school-select">Selecione a escola:</label>
+        <select id="school-select"></select>
+      </div>
+      <div id="school-info-card"></div>
+      <div id="school-charts-container"></div>
+    </section>
+
+    <!-- COMPARAÇÃO -->
+    <section id="tab-comparison" class="tab-content">
+      <div class="comparison-selector">
+        <p>Selecione até 6 escolas para comparar:</p>
+        <div id="comparison-checkboxes" class="checkbox-grid"></div>
+        <button id="btn-compare" class="btn-primary">Comparar</button>
+      </div>
+      <div id="comparison-results"></div>
+    </section>
+
+    <!-- MUNICÍPIOS -->
+    <section id="tab-municipality" class="tab-content">
+      <div class="summary-cards" id="mun-cards"></div>
+      <div class="charts-grid">
+        <div class="chart-card">
+          <h3>Proficiência Média por Município</h3>
+          <div class="chart-container"><canvas id="chart-mun-profic"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <h3>Total de Alunos por Município</h3>
+          <div class="chart-container"><canvas id="chart-mun-students"></canvas></div>
+        </div>
+      </div>
+      <div id="mun-detail"></div>
+    </section>
+
+    <!-- CHAT IA -->
+    <section id="tab-chat" class="tab-content">
+      <div class="chat-config">
+        <div class="chat-config-row">
+          <label for="chat-api-key">API Key:</label>
+          <input type="password" id="chat-api-key" placeholder="Sua chave LAVITY/Anthropic">
+        </div>
+        <div class="chat-config-row">
+          <label for="chat-endpoint">Endpoint:</label>
+          <input type="text" id="chat-endpoint" placeholder="https://api.lavity.com/v1/messages" value="">
+        </div>
+        <div class="chat-config-row">
+          <label for="chat-model">Modelo:</label>
+          <input type="text" id="chat-model" placeholder="claude-sonnet-4-20250514" value="">
+        </div>
+      </div>
+      <div id="chat-messages" class="chat-messages">
+        <div class="chat-msg assistant">
+          <p>Olá! Sou o assistente de análise SARESP 2025. Configure sua API Key e endpoint acima, depois faça suas perguntas sobre os dados das 26 escolas.</p>
+        </div>
+      </div>
+      <div class="chat-input-area">
+        <textarea id="chat-input" placeholder="Faça uma pergunta sobre os dados SARESP..." rows="2"></textarea>
+        <button id="btn-send-chat" class="btn-primary">Enviar</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>SARESP 2025 - Diretoria de Ensino Região de Sertãozinho</p>
+  </footer>
+
+  <script src="js/chart-helpers.js"></script>
+  <script src="js/dashboard.js"></script>
+  <script src="js/rankings.js"></script>
+  <script src="js/school-detail.js"></script>
+  <script src="js/comparison.js"></script>
+  <script src="js/municipality.js"></script>
+  <script src="js/chat.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

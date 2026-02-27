@@ -57,11 +57,10 @@ def compute_ef_stats(df):
     if df.empty:
         return None
 
-    # Converter proficiências
+    # Converter proficiências (formato brasileiro "283,80" -> 283.80)
     for col in ['profic_lp', 'profic_mat']:
-        df[col] = df[col].replace('null', pd.NA)
-        mask = df[col].notna()
-        df.loc[mask, col] = df.loc[mask, col].astype(str).str.replace(',', '.').astype(float)
+        df[col] = df[col].astype(str).replace('null', pd.NA).replace('nan', pd.NA)
+        df[col] = df[col].str.replace(',', '.', regex=False)
         df[col] = pd.to_numeric(df[col], errors='coerce')
 
     for col in ['particip_lp', 'particip_mat']:
