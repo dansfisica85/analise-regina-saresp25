@@ -38,10 +38,10 @@ const Comparison = (() => {
 
     // EF proficiency
     tableHTML += `<tr><td><strong>Profic. LP (EF)</strong></td>${schools.map(s =>
-      `<td>${s.ensino_fundamental ? (s.ensino_fundamental.totals.avg_profic_lp ?? '-') : '-'}</td>`
+      `<td>${s.ensino_fundamental ? (s.ensino_fundamental.totals.avg_profic_lp ?? '-') : '<span class="badge-no-data">Não participou</span>'}</td>`
     ).join('')}</tr>`;
     tableHTML += `<tr><td><strong>Profic. MAT (EF)</strong></td>${schools.map(s =>
-      `<td>${s.ensino_fundamental ? (s.ensino_fundamental.totals.avg_profic_mat ?? '-') : '-'}</td>`
+      `<td>${s.ensino_fundamental ? (s.ensino_fundamental.totals.avg_profic_mat ?? '-') : '<span class="badge-no-data">Não participou</span>'}</td>`
     ).join('')}</tr>`;
     tableHTML += `<tr><td><strong>% Adeq.+Avanç. LP</strong></td>${schools.map(s =>
       `<td>${s.ensino_fundamental ? (s.ensino_fundamental.totals.pct_adequado_avancado_lp ?? '-') + '%' : '-'}</td>`
@@ -50,14 +50,35 @@ const Comparison = (() => {
       `<td>${s.ensino_fundamental ? (s.ensino_fundamental.totals.pct_adequado_avancado_mat ?? '-') + '%' : '-'}</td>`
     ).join('')}</tr>`;
 
+    // Level counts LP
+    const lvlNames = ['Abaixo do Basico', 'Basico', 'Adequado', 'Avancado'];
+    const lvlLabels = ['Abaixo do Básico LP', 'Básico LP', 'Adequado LP', 'Avançado LP'];
+    const lvlClasses = ['level-abaixo', 'level-basico', 'level-adequado', 'level-avancado'];
+    lvlNames.forEach((lvl, idx) => {
+      tableHTML += `<tr><td><strong>${lvlLabels[idx]}</strong></td>${schools.map(s => {
+        if (!s.ensino_fundamental) return '<td>-</td>';
+        const val = s.ensino_fundamental.totals.proficiency_levels_lp[lvl] || 0;
+        return `<td class="${lvlClasses[idx]}">${val}</td>`;
+      }).join('')}</tr>`;
+    });
+    // Level counts MAT
+    const lvlLabelsM = ['Abaixo do Básico MAT', 'Básico MAT', 'Adequado MAT', 'Avançado MAT'];
+    lvlNames.forEach((lvl, idx) => {
+      tableHTML += `<tr><td><strong>${lvlLabelsM[idx]}</strong></td>${schools.map(s => {
+        if (!s.ensino_fundamental) return '<td>-</td>';
+        const val = s.ensino_fundamental.totals.proficiency_levels_mat[lvl] || 0;
+        return `<td class="${lvlClasses[idx]}">${val}</td>`;
+      }).join('')}</tr>`;
+    });
+
     // AF participation
     tableHTML += `<tr><td><strong>Participação AF</strong></td>${schools.map(s =>
-      `<td>${s.anos_finais ? (s.anos_finais.totals.participation_rate_both * 100).toFixed(1) + '%' : '-'}</td>`
+      `<td>${s.anos_finais ? (s.anos_finais.totals.participation_rate_both * 100).toFixed(1) + '%' : '<span class="badge-no-data">Não participou</span>'}</td>`
     ).join('')}</tr>`;
 
     // EM participation
     tableHTML += `<tr><td><strong>Participação EM</strong></td>${schools.map(s =>
-      `<td>${s.ensino_medio ? (s.ensino_medio.totals.participation_rate_both * 100).toFixed(1) + '%' : '-'}</td>`
+      `<td>${s.ensino_medio ? (s.ensino_medio.totals.participation_rate_both * 100).toFixed(1) + '%' : '<span class="badge-no-data">Não participou</span>'}</td>`
     ).join('')}</tr>`;
 
     // Total students
