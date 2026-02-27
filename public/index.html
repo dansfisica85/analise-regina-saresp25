@@ -13,6 +13,7 @@
       <h1>ANÁLISE R.E.G.I.N.A.</h1>
       <p class="subtitle">Registros Educacionais Gerais e Índices Avaliativos</p>
       <p class="subtitle">SARESP 2025 - 26 Escolas Estaduais - URE de Sertãozinho</p>
+      <button id="btn-readme" class="btn-readme" onclick="document.getElementById('readme-panel').classList.toggle('open')">Sobre o Projeto</button>
     </div>
     <nav id="main-nav">
       <button class="nav-btn active" data-tab="dashboard">Painel</button>
@@ -22,6 +23,114 @@
       <button class="nav-btn" data-tab="municipality">Municípios</button>
     </nav>
   </header>
+
+  <!-- README Panel -->
+  <div id="readme-panel" class="readme-panel">
+    <div class="readme-inner">
+      <button class="readme-close" onclick="document.getElementById('readme-panel').classList.remove('open')">&times;</button>
+
+      <h2>ANÁLISE R.E.G.I.N.A.</h2>
+      <h3>Registros Educacionais Gerais e Índices Avaliativos</h3>
+
+      <p class="readme-nota"><em>NOTA DE ESCLARECIMENTO: Eu, Davi, sou um DESENVOLVEDOR que resolve problemas. Este projeto não tem uma linha sequer que eu não entenda. Então, não tenho um PROMPT para você ... saia do GPT e vá estudar.</em></p>
+
+      <hr>
+
+      <h4>O que é este projeto?</h4>
+      <p>Sistema web de análise dos microdados do <strong>SARESP 2025</strong> (Sistema de Avaliação de Rendimento Escolar do Estado de São Paulo) para as <strong>26 Escolas Estaduais</strong> da <strong>Unidade Regional de Ensino de Sertãozinho</strong>, abrangendo 8 municípios: Barrinha, Dumont, Jardinópolis, Pitangueiras, Pontal, Sertãozinho, Terra Roxa e Viradouro.</p>
+
+      <h4>Fonte dos Dados</h4>
+      <p>Os dados são provenientes de três arquivos CSV oficiais de microdados do SARESP 2025:</p>
+      <ul>
+        <li><strong>Ensino Fundamental</strong> (~1,29 milhão de registros) &mdash; Contém notas de proficiência em Língua Portuguesa e Matemática, níveis de proficiência (Abaixo do Básico, Básico, Adequado, Avançado) e dados de participação.</li>
+        <li><strong>Anos Finais</strong> (~1,36 milhão de registros) &mdash; Contém dados de participação nos dias 1 e 2 da avaliação.</li>
+        <li><strong>Ensino Médio Provão</strong> (~1,14 milhão de registros) &mdash; Contém dados de participação nas provas de Linguagens/Ciências da Natureza e Matemática/Ciências Humanas.</li>
+      </ul>
+      <p>Dos ~3,8 milhões de registros totais, o script filtra apenas os alunos das 26 escolas estaduais da URE de Sertãozinho usando o código identificador único <code>CODESC</code>.</p>
+
+      <hr>
+
+      <h4>Arquitetura do Projeto</h4>
+      <pre>
+analise-regina-saresp25/
+├── scripts/
+│   ├── process_data.py      # Pipeline de processamento de dados
+│   └── requirements.txt     # Dependência: pandas
+├── public/
+│   ├── index.html           # SPA principal (esta página)
+│   ├── css/
+│   │   └── styles.css       # Estilos completos do projeto
+│   ├── js/
+│   │   ├── app.js           # Controlador principal e navegação
+│   │   ├── chart-helpers.js # Utilitários Chart.js e paleta de cores
+│   │   ├── dashboard.js     # Módulo do Painel (cards + gráficos)
+│   │   ├── rankings.js      # Módulo de Rankings (5 critérios)
+│   │   ├── school-detail.js # Módulo de detalhes por escola
+│   │   ├── comparison.js    # Módulo de comparação (até 6 escolas)
+│   │   └── municipality.js  # Módulo de agregação por município
+│   └── data/
+│       └── saresp_data.json # Dados processados (JSON ~153KB)
+├── server.js                # Servidor Express.js (servir arquivos)
+├── package.json             # Dependência: express
+└── .gitignore               # Exclui CSVs e node_modules
+      </pre>
+
+      <h4>Fluxo de Processamento dos Dados</h4>
+      <p>O script <code>process_data.py</code> executa o seguinte pipeline:</p>
+      <ol>
+        <li><strong>Leitura e Filtragem</strong>: Cada CSV é lido com <code>pandas</code>. A coluna <code>CODESC</code> é usada para filtrar exclusivamente as 26 escolas alvo, evitando colisões de nome entre escolas estaduais e municipais homônimas.</li>
+        <li><strong>Conversão de Dados</strong>: Os valores de proficiência nos CSVs usam formato decimal brasileiro (<code>"283,80"</code>). O script converte para float (<code>283.80</code>) via pipeline: <code>astype(str) → str.replace(',','.') → pd.to_numeric()</code>.</li>
+        <li><strong>Cálculo de Estatísticas por Escola</strong>:
+          <ul>
+            <li><strong>Ensino Fundamental</strong>: Média, mediana e desvio padrão de proficiência em LP e MAT; contagem de alunos por nível (Abaixo do Básico, Básico, Adequado, Avançado); percentual de Adequado+Avançado; taxa de participação. Tudo calculado por série e no total.</li>
+            <li><strong>Anos Finais</strong>: Taxa de participação nos dias 1, 2 e em ambos, por série e total.</li>
+            <li><strong>Ensino Médio</strong>: Taxa de participação em LG/CN, MAT/CH e em ambas, por série e total.</li>
+          </ul>
+        </li>
+        <li><strong>Rankings</strong>: 5 rankings são gerados &mdash; Proficiência LP (média), Proficiência MAT (média), % Adequado+Avançado LP, % Adequado+Avançado MAT e Participação Geral (todas as 26 escolas).</li>
+        <li><strong>Agregação Municipal</strong>: Estatísticas médias ponderadas por município.</li>
+        <li><strong>Saída</strong>: Tudo é consolidado em <code>saresp_data.json</code> (~153KB), contendo metadados, dados de cada escola, rankings, municípios e um texto resumo.</li>
+      </ol>
+
+      <h4>Tecnologias Utilizadas</h4>
+      <table class="readme-tech-table">
+        <tr><td><strong>Backend de Dados</strong></td><td>Python 3 + Pandas &mdash; Processamento e limpeza dos ~3,8M de registros CSV</td></tr>
+        <tr><td><strong>Servidor Web</strong></td><td>Node.js + Express.js &mdash; Servidor estático para a SPA</td></tr>
+        <tr><td><strong>Frontend</strong></td><td>HTML5 + CSS3 + JavaScript vanilla &mdash; SPA com 5 módulos independentes</td></tr>
+        <tr><td><strong>Visualização</strong></td><td>Chart.js 4.4.7 &mdash; Gráficos de barras horizontais, barras empilhadas, doughnuts e barras agrupadas</td></tr>
+        <tr><td><strong>Layout</strong></td><td>CSS Grid + Flexbox &mdash; Design responsivo sem frameworks</td></tr>
+      </table>
+
+      <h4>Os 5 Módulos do Site</h4>
+      <ol>
+        <li><strong>Painel</strong> &mdash; Visão geral com cards de métricas (total de escolas, alunos, médias de proficiência, distribuição por nível), gráficos de proficiência por escola e distribuição de níveis (doughnut). Lista escolas que não participaram do Ensino Fundamental.</li>
+        <li><strong>Rankings</strong> &mdash; Tabela e gráfico ordenáveis por 5 critérios (Proficiência LP, Proficiência MAT, % Adequado+Avançado LP, % Adequado+Avançado MAT, Participação Geral). Colunas com contagem por nível de proficiência com código de cores. Seção separada para escolas sem dados de proficiência.</li>
+        <li><strong>Escola</strong> &mdash; Seleção individual de cada escola com cards de estatísticas, tabelas de níveis de proficiência com contagens e percentuais, gráficos de proficiência por série (barras agrupadas LP e MAT) e níveis por série (barras empilhadas). Indicação clara de segmentos em que a escola não participou.</li>
+        <li><strong>Comparação</strong> &mdash; Seleção de até 6 escolas lado a lado, com tabela completa mostrando média de proficiência, % Adequado+Avançado, contagem por nível (LP e MAT), taxas de participação em todos os segmentos. Badge "Não participou" para dados ausentes.</li>
+        <li><strong>Municípios</strong> &mdash; Cards por município com número de escolas, total de alunos, proficiência média. Gráficos comparativos de proficiência e alunos por município. Grid detalhado com lista de escolas e seus segmentos.</li>
+      </ol>
+
+      <h4>Indicadores de Não Participação</h4>
+      <p>Das 26 escolas, 17 possuem dados de proficiência (participaram do Ensino Fundamental) e 9 participaram apenas do Ensino Médio. O sistema identifica e sinaliza essas situações em todos os módulos, com badges vermelhos "Não participou", alertas informativos e caixas indicativas nos detalhes de cada escola.</p>
+
+      <h4>Como Executar</h4>
+      <ol>
+        <li>Instalar dependências: <code>npm install</code></li>
+        <li>(Opcional) Reprocessar dados: <code>pip install pandas && python scripts/process_data.py</code></li>
+        <li>Iniciar servidor: <code>node server.js</code></li>
+        <li>Acessar: <code>http://localhost:3000</code></li>
+      </ol>
+
+      <hr>
+
+      <div class="readme-credits">
+        <h4>Desenvolvedor</h4>
+        <p><strong>Davi Antonino Nunes da Silva</strong></p>
+        <p>WhatsApp: 16 99260-4315</p>
+        <p>E-mail: professordavi85@gmail.com</p>
+      </div>
+    </div>
+  </div>
 
   <main id="main-content">
     <!-- PAINEL -->
